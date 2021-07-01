@@ -1,96 +1,110 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script type="text/javascript" src="file:///C:\Users\aruna\Desktop\spark\jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SRCS Spark 2021</title>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <nav style="top: 0; position: fixed;"class="navbar is-fixed-top box" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <img src="https://raw.githubusercontent.com/weblaze/spark/main/assets/srcspng1.png" width="250" height="100">
 
-   <head>
-      <meta charset="utf-8">
-      <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-      <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
-      <script src="index.js"></script>
-      <script type="text/javascript" src="slick/slick.min.js"></script>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>SRCS Spark 2021</title>
-   </head>
+        <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
 
-   <body class="has-navbar-fixed-top">
+      <div id="navbarBasicExample"  class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item">
+            <a class="navbar-item">
+              Home
+            </a>
+          </div>
 
-      <header>
-         <nav style="top: 0; position: fixed;"class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-               <img src="https://raw.githubusercontent.com/weblaze/spark/main/assets/srcspng1.png" width="250" height="100">
-               <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-               <span aria-hidden="true"></span>
-               <span aria-hidden="true"></span>
-               <span aria-hidden="true"></span>
-               </a>
+          <div class="navbar-item">
+            <a class="navbar-item">
+              About
+            </a>
+          </div>
+
+          <div class="navbar-item">
+            <a class="navbar-item">
+              Events
+            </a>
+          </div>
+
+          <div class="navbar-item">
+            <a class="navbar-item">
+              Results
+            </a>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-danger">
+                <strong>Register</strong>
+              </a>
             </div>
-            <div id="navbarBasicExample"  class="navbar-menu">
-               <div class="navbar-start">
-                  <div class="navbar-item">
-                     <a class="navbar-item">
-                     Home
-                     </a>
-                  </div>
-                  <div class="navbar-item">
-                     <a class="navbar-item">
-                     About
-                     </a>
-                  </div>
-                  <div class="navbar-item">
-                     <a class="navbar-item">
-                     Events
-                     </a>
-                  </div>
-                  <div class="navbar-item">
-                     <a class="navbar-item">
-                     Results
-                     </a>
-                  </div>
-               </div>
-               <div class="navbar-end">
-                  <div class="navbar-item">
-                     <div class="buttons">
-                        <a class="button is-danger" id="Register">
-                        <strong>Register</strong>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </nav>
-      </header>
+          </div>
+        </div>
+      </div>
+    </nav>
+<<<<<<< Updated upstream
+    <div class="carousel" style="padding-top:50px;">
+      <div>
+        <img src="https://raw.githubusercontent.com/weblaze/spark/main/assets/srcspng1.png">
+=======
+    <div class="carousel box" style="position: static;">
+      <div style="z-index: 1;">
+        <img src="file:///C:/Users/aruna/Desktop/spark/assets/srcspng1.png">
+>>>>>>> Stashed changes
+      </div>
 
-      <main>
+      <div>
+        <img src="https://raw.githubusercontent.com/weblaze/spark/main/assets/srcspng1.png">
+      </div>
 
-         <div class="carousel" style="padding-top:50px;">
-            <div>
-               <img src="https://raw.githubusercontent.com/weblaze/spark/main/assets/srcspng1.png">
-            </div>
-            <div>
-               <img src="https://raw.githubusercontent.com/weblaze/spark/main/assets/srcspng1.png">
-            </div>
-            <div>
-               <img src="https://raw.githubusercontent.com/weblaze/spark/main/assets/srcspng1.png">
-            </div>
-         </div>
+      <div>
+        <img src="https://raw.githubusercontent.com/weblaze/spark/main/assets/srcspng1.png">
+      </div>
+    </div>
 
-         <div class="modal">
-            <div class="modal-background"></div>
-            <div class="modal-content has-background-white py-5 px-5">
-               <h3 class="title">Registration Form for SPARK 2021</h3>
-               <form>
-                  <!--WIP-->
-               </form>
-            </div>
-         </div>
+    <div class="columns" style="position: static;">
+      <div class=" box column is-half content">
+        <h1 class="title">About School</h1>
+        <p>
+          ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
 
-      </main>
-
-      <footer>
-         <!--WIP-->
-      </footer>
-
-   </body>
-
+      <div class="box column is-half content">
+        <h1 class="title">About Spark</h1>
+        <p>
+          ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
