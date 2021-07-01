@@ -1,5 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  const registerButton = document.getElementById("Register");
+  const modalBg = document.getElementById("mdback");
+  const modal = document.getElementById("mds");
+
+  registerButton.addEventListener('click', () => 
+  {
+    modal.classList.add("is-active");
+  });
+  modalBg.addEventListener('click', () => 
+  {
+    modal.classList.remove("is-active");
+  });
+
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
@@ -34,3 +47,7 @@ $(document).ready(function(){
   autoplaySpeed: 3000,
 });
 });
+
+
+
+
