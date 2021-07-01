@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const registerButton = document.getElementById("Register");
   const modalBg = document.getElementById("mdback");
+  const modalClose = document.getElementById("mdclose");
   const modal = document.getElementById("mds");
 
   registerButton.addEventListener('click', () => 
@@ -9,6 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.classList.add("is-active");
   });
   modalBg.addEventListener('click', () => 
+  {
+    modal.classList.remove("is-active");
+  });
+  modalClose.addEventListener('click', () => 
   {
     modal.classList.remove("is-active");
   });
@@ -34,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-
 });
 
 $(document).ready(function(){
@@ -47,7 +51,3 @@ $(document).ready(function(){
   autoplaySpeed: 3000,
 });
 });
-
-
-
-
