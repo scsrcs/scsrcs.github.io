@@ -34,3 +34,17 @@ $(document).ready(function(){
   autoplaySpeed: 3000,
 });
 });
+
+/** REGISTRATION FORM (MODAL) */
+
+const registerButton = document.querySelector('#Register');
+const modalBg = document.querySelector('.modal-background');
+const modal = document.querySelector('.modal');
+
+registerButton.addEventListener('click', () => {
+  modal.classList.add('is-active');
+});
+
+modalBg.addEventListener('click', () => {
+  modal.classList.remove('is-active');
+});
