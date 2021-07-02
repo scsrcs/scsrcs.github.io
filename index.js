@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const registerButton = document.getElementById("Register");
   const modalBg = document.getElementById("mdback");
   const modalClose = document.getElementById("mdclose");
+  const modalCancel = document.getElementById("mdcancel");
   const modal = document.getElementById("mds");
 
   registerButton.addEventListener('click', () => 
@@ -10,6 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.classList.add("is-active");
   });
   modalBg.addEventListener('click', () => 
+  {
+    modal.classList.remove("is-active");
+  });
+  modalCancel.addEventListener('click', () => 
   {
     modal.classList.remove("is-active");
   });
