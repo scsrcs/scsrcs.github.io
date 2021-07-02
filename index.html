@@ -46,6 +46,11 @@
                      Results
                      </a>
                   </div>
+                  <div class="navbar-item">
+                     <a class="navbar-item" href="#footer">
+                     Contact Us
+                     </a>
+                  </div>
                </div>
                <div class="navbar-end">
                   <div class="navbar-item">
@@ -64,16 +69,16 @@
 
          <div class="carousel box" style="padding-top:50px;" id="home">
             <div>
-               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/scsrcs-patch-1/assets/stock-photo-1.png">
+               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-1.png">
             </div>
             <div>
-               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/scsrcs-patch-1/assets/stock-photo-2.png">
+               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-2.png">
             </div>
             <div>
-               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/scsrcs-patch-1/assets/stock-photo-3.png">
+               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-3.png">
             </div>
             <div>
-               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/scsrcs-patch-1/assets/stock-photo-4.png">
+               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-4.png">
             </div>
          </div>
 
@@ -85,7 +90,7 @@
                   <button class="delete" id="mdclose" aria-label="close"></button>
                </header>
                <section class="modal-card-body">
-                  <form>
+                  <form name="Register" data-netlify-recaptcha="true" data-netlify="true">
 
                      <!--School Name, Email and Phone Number-->
                      <div class="field is-horizontal">
@@ -103,7 +108,7 @@
                          </div>
                          <div class="field">
                            <p class="control is-expanded has-icons-left has-icons-right">
-                             <input class="input is-success" type="email" placeholder="School E-mail">
+                             <input class="input" type="email" placeholder="School E-mail">
                              <span class="icon is-small is-left">
                                <i class="fas fa-envelope"></i>
                              </span>
@@ -149,7 +154,7 @@
                          </div>
                          <div class="field">
                            <p class="control is-expanded has-icons-left has-icons-right">
-                             <input class="input is-success" type="email" placeholder="Teacher's E-mail">
+                             <input class="input" type="email" placeholder="Teacher's E-mail">
                              <span class="icon is-small is-left">
                                <i class="fas fa-envelope"></i>
                              </span>
@@ -179,11 +184,35 @@
                        </div>
                      </div>
 
+                     <!--Events-->
+                     <div><p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
+                     <!--Captcha to prevent spam-->
+                     <div data-netlify-recaptcha="true"></div>
+
                   </form>
                </section>
                <footer class="modal-card-foot">
                   <button class="button is-success">Submit</button>
-                  <button class="button is-danger is-outlined">Cancel</button>
+                  <div id="mdcancel"><button class="button is-danger is-outlined">Cancel</button></div>
                </footer>
             </div>
          </div>
@@ -230,7 +259,7 @@
 
       </main>
 
-      <footer>
+      <footer class="footer" id="footer">
          <div class="card">
             <div class="card-content">
                <div class="media">
