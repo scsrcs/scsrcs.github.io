@@ -13,13 +13,13 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>SRCS Spark 2021</title>
    </head>
-
    <body class="has-navbar-fixed-top">
 
+      <!--NAVIGATION BAR-->
       <header>
-         <nav style="top: 0; position: fixed;"class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+         <nav style="top: 0; position: fixed; z-index: 10; box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);"class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/scsrcs-patch-1/assets/srcspng1.png" width="300" height="75">
+               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/srcspng3.png" width="300" height="75">
                <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                <span aria-hidden="true"></span>
                <span aria-hidden="true"></span>
@@ -27,35 +27,48 @@
                </a>
             </div>
             <div id="navbarBasicExample"  class="navbar-menu">
-               <div class="navbar-start">
-                  
-               </div>
                <div class="navbar-end">
                   <div class="navbar-item">
                      <a class="navbar-item button is-white" href="#home">
-                     Home
+                     <span class="icon">
+                         <i class="fas fa-home"></i>
+                       </span>
+                     <span>Home</span>
                      </a>
                   </div>
                   <div class="navbar-item">
                      <a class="navbar-item button is-white" href="#about">
-                     About
+                     <span class="icon">
+                         <i class="fas fa-info"></i>
+                       </span>
+                     <span>About</span>
                      </a>
                   </div>
                   <div class="navbar-item">
                      <a class="navbar-item button is-white" href="#events">
-                     Events
+                     <span class="icon">
+                         <i class="fas fa-calendar-alt"></i>
+                       </span>
+                     <span>Events</span>
                      </a>
                   </div>
                   <div class="navbar-item">
-                     <a class="navbar-item button is-white" href="#">
-                     Results
+                     <a class="navbar-item button is-white" href="#results">
+                     <span class="icon">
+                         <i class="fas fa-poll"></i>
+                       </span>
+                     <span>Results</span>
                      </a>
                   </div>
                   <div class="navbar-item">
-                     <a class="navbar-item button is-white" href="#footer">
-                     Contact Us
+                     <a class="navbar-item button is-white" href="#contact">
+                     <span class="icon">
+                         <i class="fas fa-address-book"></i>
+                       </span>
+                     <span>Contact Us</span>
                      </a>
                   </div>
+
                   <div class="navbar-item">
                      <div class="buttons" id="Register">
                         <a class="button is-danger">
@@ -67,9 +80,9 @@
             </div>
          </nav>
       </header>
-
       <main>
 
+         <!--POPUP REGISTRATION FORM-->
          <div class="modal" id="mds">
             <div class="modal-background" id="mdback"></div>
             <div class="modal-card">
@@ -90,18 +103,15 @@
                            <p class="control is-expanded has-icons-left">
                              <input class="input" type="text" placeholder="School Name">
                              <span class="icon is-small is-left">
-                               <i class="fas fa-user"></i>
+                               <i class="fa fa-school"></i>
                              </span>
                            </p>
                          </div>
                          <div class="field">
-                           <p class="control is-expanded has-icons-left has-icons-right">
+                           <p class="control is-expanded has-icons-left">
                              <input class="input" type="email" placeholder="School E-mail">
                              <span class="icon is-small is-left">
                                <i class="fas fa-envelope"></i>
-                             </span>
-                             <span class="icon is-small is-right">
-                               <i class="fas fa-check"></i>
                              </span>
                            </p>
                          </div>
@@ -141,13 +151,10 @@
                            </p>
                          </div>
                          <div class="field">
-                           <p class="control is-expanded has-icons-left has-icons-right">
+                           <p class="control is-expanded has-icons-left">
                              <input class="input" type="email" placeholder="Teacher's E-mail">
                              <span class="icon is-small is-left">
                                <i class="fas fa-envelope"></i>
-                             </span>
-                             <span class="icon is-small is-right">
-                               <i class="fas fa-check"></i>
                              </span>
                            </p>
                          </div>
@@ -205,19 +212,20 @@
             </div>
          </div>
          
+         <!--HOME CAROUSEL-->
          <section id="home">
             <div class="carousel pr-0 pb-0 pt-2 pl-0">
                <div>
-                  <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/scsrcs-patch-1/assets/stock-photo-1.jpg">
+                  <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-1.jpg">
                </div>
                <div>
-                  <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/scsrcs-patch-1/assets/stock-photo-2.jpg">
+                  <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-2.jpg">
                </div>
                <div>
-                  <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/scsrcs-patch-1/assets/stock-photo-3.jpg">
+                  <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-3.jpg">
                </div>
                <div>
-                  <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/scsrcs-patch-1/assets/stock-photo-2.jpg">
+                  <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-2.jpg">
                </div>
             </div>
             <div class="container is-overlay is-fluid" style="z-index: 5;">
@@ -228,10 +236,11 @@
             </div>
          </section>
 
+         <!--ABOUT SCHOOL & SPARK-->
          <section class="section is-medium" id="about">
             <div class="container">
                <div class="columns" style="position: static;">
-                  <div class="column is-half box container content ml-1 mr-1 mt-0 mb-0">
+                  <div class="column is-half box container content ml-1 mr-1 mt-0 mb-6">
                      <h1 class="title">About School</h1>
                      <p>
                         ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -246,7 +255,7 @@
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                      </p>
                   </div>
-                  <div class="column is-half box container content ml-1 mr-1 mt-0 mb-0">
+                  <div class="column is-half box container content ml-1 mr-1 mt-0 mb-6">
                      <h1 class="title">About Spark</h1>
                      <p>
                         ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -261,16 +270,343 @@
             </div>
          </section>
 
-         <section class="section is-large" id="events">
-            <h1 class="title">Large section</h1>
-            <h2 class="subtitle">
-               A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
-            </h2>
-         </section>
+         <!--EVENTS-->
+         <hr>
+         <section class="section is-large " id="events">
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
 
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+
+            <div class="tile is-ancestor">
+               <div class="tile is-parent">
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">Wide tile</p>
+                    <p class="subtitle">Aligned with the right tile</p>
+                    <div class="content">
+                      <!-- Content -->
+                    </div>
+                  </article>
+               </div>
+            </div>
+
+         </section>
+         <hr>
+
+         <!--RESULTS AND CONTACT US-->
+         <section class="section is-medium">
+            <div class="container">
+               <div class="columns" style="position: static;">
+                  <!--Results-->
+                  <div class="column is-half box container content ml-1 mr-1 mt-0 mb-6" id="results">
+                     <h1 class="title is-3">Spark 2021 Results</h1>
+                     <strong><p style="color:darkred;">*Results for Spark 2021 have not yet been announced*</p></strong>
+                     <br>
+                     <p style="color:dimgray;">For queries please <a href="#contact">contact</a> the school or the event-specific incharges.</p>
+                  </div>
+                  <!--Contact Us-->
+                  <div class="column is-half box container content ml-1 mr-1 mt-0 mb-6" id="contact">
+                     <h1 class="title is-3">Contact Details</h1>
+                     <div class="columns">
+                        <div class="column is-half">
+                           <!--School Contacts-->
+                           <strong><p>School:</p></strong>
+                           <span class="icon-text">
+                             <span class="icon">
+                               <i class="fas fa-envelope"></i>
+                             </span>
+                             <span>examplesrcsdoon@gmail.com</span>
+                           </span>
+                           <span class="icon-text">
+                             <span class="icon">
+                               <i class="fas fa-phone"></i>
+                             </span>
+                             <span>+91 89799 58111</span>
+                           </span>
+                           <!--Student Council Contacts-->
+                           <strong><p><br>Student Council:</p></strong>
+                           <span class="icon-text">
+                             <span class="icon">
+                               <i class="fas fa-envelope"></i>
+                             </span>
+                             <span>studentcouncil.srcs@gmail.com</span>
+                           </span>
+                        </div>
+                        <div class="column is-half">
+                           <!--Event Heads Contacts-->
+                           <strong><p>Event Management Student Heads:</p></strong>
+                           <span class="icon-text">
+                             <span class="icon">
+                               <i class="fas fa-envelope"></i>
+                             </span>
+                             <span>aryan.vadera21@gmail.com</span>
+                           </span>
+                           <span class="icon-text">
+                             <span class="icon">
+                               <i class="fas fa-phone"></i>
+                             </span>
+                             <span>+91 75349 41941</span>
+                           </span>
+                           <span class="icon-text">
+                             <span class="icon">
+                               <i class="fas fa-envelope"></i>
+                             </span>
+                             <span>ananyagoyal1619@gmail.com</span>
+                           </span>
+                           <span class="icon-text">
+                             <span class="icon">
+                               <i class="fas fa-phone"></i>
+                             </span>
+                             <span>+91 63988 51772</span>
+                           </span>
+                        </div>
+                     </div>
+                     <strong><p style="color:dimgray;">To contact event-specific incharges please check <u><a  href="#events" style="color:mediumslateblue;">events</a></u></p></strong>
+                  </div>
+               </div>
+            </div>
+         </section>
       </main>
 
-      <footer class="hero" id="footer">
+      <!--FOOTER-->
+      <footer class="hero level" id="contact">
          <div class="card">
             <div class="card-content">
                <div class="media">
