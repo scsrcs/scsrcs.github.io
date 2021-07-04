@@ -33,44 +33,43 @@
                   <div class="navbar-item">
                      <a class="navbar-item button is-white" href="#home">
                      <span class="icon">
-                         <i class="fas fa-home"></i>
-                       </span>
+                     <i class="fas fa-home"></i>
+                     </span>
                      <span>Home</span>
                      </a>
                   </div>
                   <div class="navbar-item">
                      <a class="navbar-item button is-white" href="#about">
                      <span class="icon">
-                         <i class="fas fa-info"></i>
-                       </span>
+                     <i class="fas fa-info"></i>
+                     </span>
                      <span>About</span>
                      </a>
                   </div>
                   <div class="navbar-item">
                      <a class="navbar-item button is-white" href="#events">
                      <span class="icon">
-                         <i class="fas fa-calendar-alt"></i>
-                       </span>
+                     <i class="fas fa-calendar-alt"></i>
+                     </span>
                      <span>Events</span>
                      </a>
                   </div>
                   <div class="navbar-item">
                      <a class="navbar-item button is-white" href="#results">
                      <span class="icon">
-                         <i class="fas fa-poll"></i>
-                       </span>
+                     <i class="fas fa-poll"></i>
+                     </span>
                      <span>Results</span>
                      </a>
                   </div>
                   <div class="navbar-item">
                      <a class="navbar-item button is-white" href="#contact">
                      <span class="icon">
-                         <i class="fas fa-address-book"></i>
-                       </span>
+                     <i class="fas fa-address-book"></i>
+                     </span>
                      <span>Contact Us</span>
                      </a>
                   </div>
-
                   <div class="navbar-item">
                      <div class="buttons" id="Register">
                         <a class="button is-danger">
@@ -82,116 +81,153 @@
             </div>
          </nav>
       </header>
-
       <main>
+
          <!--POPUP REGISTRATION FORM-->
          <div class="modal" id="mds">
             <div class="modal-background" id="mdback"></div>
             <div class="modal-card">
                <header class="modal-card-head">
-                  <p class="modal-card-title">School Registration Form for SRCS Spark 2021</p>
+                  <p class="modal-card-title">School Registration Form</p>
                   <button class="delete" id="mdclose" aria-label="close"></button>
                </header>
                <section class="modal-card-body">
                   <form name="Register" data-netlify-recaptcha="true" data-netlify="true">
 
-                     <!--School Name, Email and Phone Number-->
-                     <div class="box">
-                        <div class="field is-horizontal">
-                          <div class="field-label is-normal">
-                            <label class="label">School</label>
-                          </div>
-                          <div class="field-body">
-                            <div class="field">
-                              <p class="control is-expanded has-icons-left">
-                                <input class="input" type="text" placeholder="School Name">
-                                <span class="icon is-small is-left">
-                                  <i class="fa fa-school"></i>
-                                </span>
-                              </p>
-                            </div>
-                            <div class="field">
-                              <p class="control is-expanded has-icons-left">
-                                <input class="input" type="email" placeholder="School E-mail">
-                                <span class="icon is-small is-left">
-                                  <i class="fas fa-envelope"></i>
-                                </span>
-                              </p>
-                            </div>
-                          </div>
+                     <!--School Name, Phone Number and Email-->
+                     <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                           <label class="label">School</label>
                         </div>
-                        <div class="field is-horizontal">
-                          <div class="field-label"></div>
-                          <div class="field-body">
-                            <div class="field is-expanded">
-                              <div class="field has-addons">
-                                <p class="control">
-                                  <a class="button is-static">
-                                    +91
-                                  </a>
-                                </p>
-                                <p class="control is-expanded">
-                                  <input class="input" type="tel" placeholder="School Phone No.">
-                                </p>
+                        <div class="field-body">
+                           <div class="field">
+                              <p class="control is-expanded has-icons-left">
+                                 <input class="input" type="text" placeholder="School Name">
+                                 <span class="icon is-small is-left">
+                                 <i class="fa fa-school"></i>
+                                 </span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="field is-horizontal">
+                        <div class="field-label"></div>
+                        <div class="field-body">
+                           <div class="field is-expanded">
+                              <div class="field">
+                                 <p class="control is-expanded has-icons-left">
+                                    <input class="input" type="tel" placeholder="School Phone No.">
+                                    <span class="icon is-small is-left">
+                                    <i class="fas fa-phone"></i>
+                                    </span>
+                                 </p>
                               </div>
                               <p class="help" style="color: dimgray;">Do not enter the first zero</p>
-                            </div>
-                          </div>
+                           </div>
+                           <div class="field">
+                              <p class="control is-expanded has-icons-left">
+                                 <input class="input" type="email" placeholder="School E-mail">
+                                 <span class="icon is-small is-left">
+                                 <i class="fas fa-envelope"></i>
+                                 </span>
+                              </p>
+                           </div>
                         </div>
                      </div>
 
-                     <!--Teacher Name, Email and Phone Number-->
-                     <div class="box">
-                        <div class="field is-horizontal">
-                          <div class="field-label is-normal">
-                            <label class="label">Teacher<br>in-charge</label>
-                          </div>
-                          <div class="field-body">
-                            <div class="field">
-                              <p class="control is-expanded has-icons-left">
-                                <input class="input" type="text" placeholder="Teacher's Name">
-                                <span class="icon is-small is-left">
-                                  <i class="fas fa-user"></i>
-                                </span>
-                              </p>
-                            </div>
-                            <div class="field">
-                              <p class="control is-expanded has-icons-left">
-                                <input class="input" type="email" placeholder="Teacher's E-mail">
-                                <span class="icon is-small is-left">
-                                  <i class="fas fa-envelope"></i>
-                                </span>
-                              </p>
-                            </div>
-                          </div>
+                     <!--Teachers' Name, Phone Number and Email-->
+                     <hr>
+                     <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                           <label class="label">Teacher(s) in-charge</label>
                         </div>
-                        <div class="field is-horizontal">
-                          <div class="field-label"></div>
-                          <div class="field-body">
-                            <div class="field is-expanded">
-                              <div class="field has-addons">
-                                <p class="control">
-                                  <a class="button is-static">
-                                    +91
-                                  </a>
-                                </p>
-                                <p class="control is-expanded">
-                                  <input class="input" type="tel" placeholder="Teacher's Phone No.">
-                                </p>
+                        <div class="field-body">
+                           <div class="field">
+                              <p class="control is-expanded has-icons-left">
+                                 <input class="input" type="text" placeholder="First Teacher's Name">
+                                 <span class="icon is-small is-left">
+                                 <i class="fas fa-user"></i>
+                                 </span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="field is-horizontal">
+                        <div class="field-label"></div>
+                        <div class="field-body">
+                           <div class="field is-expanded">
+                              <div class="field">
+                                 <p class="control is-expanded has-icons-left">
+                                    <input class="input" type="tel" placeholder="Teacher's Phone No.">
+                                    <span class="icon is-small is-left">
+                                    <i class="fas fa-phone"></i>
+                                    </span>
+                                 </p>
                               </div>
                               <p class="help" style="color: dimgray;">Do not enter the first zero</p>
-                            </div>
-                          </div>
+                           </div>
+                           <div class="field">
+                              <p class="control is-expanded has-icons-left">
+                                 <input class="input" type="email" placeholder="Teacher's E-mail">
+                                 <span class="icon is-small is-left">
+                                 <i class="fas fa-envelope"></i>
+                                 </span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <br>
+                     <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                           <label class="label"></label>
+                        </div>
+                        <div class="field-body">
+                           <div class="field">
+                              <p class="control is-expanded has-icons-left">
+                                 <input class="input" type="text" placeholder="Second Teacher's Name">
+                                 <span class="icon is-small is-left">
+                                 <i class="fas fa-user"></i>
+                                 </span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="field is-horizontal">
+                        <div class="field-label"></div>
+                        <div class="field-body">
+                           <div class="field is-expanded">
+                              <div class="field">
+                                 <p class="control is-expanded has-icons-left">
+                                    <input class="input" type="tel" placeholder="Teacher's Phone No.">
+                                    <span class="icon is-small is-left">
+                                    <i class="fas fa-phone"></i>
+                                    </span>
+                                 </p>
+                              </div>
+                              <p class="help" style="color: dimgray;">Do not enter the first zero</p>
+                           </div>
+                           <div class="field">
+                              <p class="control is-expanded has-icons-left">
+                                 <input class="input" type="email" placeholder="Teacher's E-mail">
+                                 <span class="icon is-small is-left">
+                                 <i class="fas fa-envelope"></i>
+                                 </span>
+                              </p>
+                           </div>
                         </div>
                      </div>
 
                      <!--Events-->
-                     <hr>
-                     <div></div>
+                     <hr><br>
+                     <div class="label is-large has-text-centered">
+                        <p class="">Events</p>
+                     </div>
+                     <div class="box">
+                        
+                     </div>
 
                      <!--Captcha to prevent spam-->
                      <div class="container" data-netlify-recaptcha="true"></div>
-
                   </form>
                </section>
                <footer class="modal-card-foot">
@@ -200,10 +236,10 @@
                </footer>
             </div>
          </div>
-         
+
          <!--HOME CAROUSEL-->
          <section id="home">
-            <div class="carousel pr-0 pb-0 pt-2 pl-0" style="z-index: 1;">
+            <div class="carousel pr-0 pb-0 pt-0 mt-6 pl-0" style="z-index: 1;">
                <div>
                   <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-1.jpg">
                </div>
@@ -217,11 +253,12 @@
                   <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-2.jpg">
                </div>
             </div>
-
             <div id="cartext" class="container" style="z-index: 5; " >
                <div id="welc"class="title is-1 has-text-centered" style="color:lightgrey;">Welcome to Spark 2021!</div>
                <div class="subtitle is-3 has-text-centered" style="color:lightgrey;">
-                  <strong><p id="welc" style="color:lightgrey;">Event Dates:</p></strong>
+                  <strong>
+                     <p id="welc" style="color:lightgrey;">Event Dates:</p>
+                  </strong>
                   <ul>
                      <li id="welc">7th August, 2021- Spark Contest Phase 1 (Submission of Videos, Audios and Photographs</li>
                      <li id="welc">13th August, 2021- Spark Contest Phase 2 (Online Competitions)</li>
@@ -235,11 +272,15 @@
          <section class="section is-medium" id="about">
             <div class="container">
                <div class="columns" style="position: static;">
+
+                  <!--About The School-->
                   <div class="column is-half box container content ml-1 mr-1 mt-0 mb-6">
-                     <h1 class="title is-3 has-text-centered">About The School</h1><hr>
+                     <h1 class="title is-3 has-text-centered">About The School</h1>
+                     <hr>
                      <div>
                         <img src="" >
-                     </div><br>
+                     </div>
+                     <br>
                      <p>
                         We are a Co-education Day Boarding & Residential School, which offers quality education with the finest living facilities to students from Grade 2 to 12 for Day Boarding and Grade 4 to 12 for Residential students.
                      </p>
@@ -253,36 +294,56 @@
                      </p>
                      <hr>
                      <div class="level is-horizontal">
-                        <div class="level-item has-text-centered">
-                           <strong><a class="button is-primary is-rounded" href="https://srcsdoon.com/rationale/ranked-no-1/">Visit School Website</a></strong>
+                        <div class="level-left">
+                           <div class="level-item has-text-centered">
+                              <strong><a class="button is-primary is-rounded" href="https://srcsdoon.com/rationale/ranked-no-1/">Visit School Website</a></strong>
+                           </div>
                         </div>
-                        <div class="level-item has-text-centered">
-                           <strong><a class="button is-info is-outlined is-rounded" href="https://www.facebook.com/srcsdehradun">Facebook</a></strong>
-                        </div>
-                        <div class="level-item has-text-centered">
-                           <strong><a class="button is-link is-outlined is-rounded" href="https://instagram.com/srcsdehradun">Instagram</a></strong>
-                        </div>
-                        <div class="level-item has-text-centered">
-                           <strong><a class="button is-danger is-outlined is-rounded" href="https://www.youtube.com/channel/UCR5zZNmWZO-Sk_JZfWLXM-Q">YouTube</a></strong>
+                        <div class="level-right">
+                           <div class="level-item">
+                              <a href="https://www.facebook.com/srcsdehradun" class="icon">
+                              <i class="fab fa-facebook"></i>
+                              </a>
+                              <a href="https://instagram.com/srcsdehradun" class="icon">
+                              <i class="fab fa-instagram"></i>
+                              </a>
+                              <a href="https://www.youtube.com/channel/UCR5zZNmWZO-Sk_JZfWLXM-Q" class="icon">
+                              <i class="fab fa-youtube"></i>
+                              </a>
+                           </div>
                         </div>
                      </div>
                   </div>
+
+                  <!--About Spark-->
                   <div class="column is-half box container content ml-1 mr-1 mt-0 mb-6">
-                     <h1 class="title is-3 has-text-centered">About Spark</h1><hr>
-                     <strong><p class="has-text-centered" style="color:dimgrey;">
-                        "Spark- a creative fire which allows a person to grow!"
-                     </p></strong>
+                     <h1 class="title is-3 has-text-centered">About Spark</h1>
+                     <hr>
+                     <strong>
+                        <p class="has-text-centered" style="color:dimgrey;">
+                           "Every child has a spark. SRCS Spark contest offers the challenge to tap it!"
+                        </p>
+                     </strong>
                      <p>
-                        This is what SRCS had in mind when they named the annual inter-school competition, Spark. Our vision from the very beginning has remained the same: to develop our students holistically and to discover their intrinsic creativity. Bringing this into action, it gives us immense pleasure to set forth our inter-school contest, Spark. Organised by Shri Ram Centennial School annually, the Sparks Contest is a wonderful opportunity for participants from all over India to rekindle their "Creative Spark" and to exhibit their talents.
+                        Our vision from the very beginning has remained the same: to develop our students holistically and to discover their intrinsic creativity and ignite this spark. A spark is the first step to kindle the fire within. Organised by Shri Ram Centennial School every year, the Spark Contest is a wonderful opportunity for those participants who have the fiery aspirations in them to ignite their "Creative Spark" and to exhibit their talents.
                      </p>
                      <p>
-                        What started in 2016, as an Inter-School contest with merely four events, Spark has now been extended to a national level competition with almost twenty events, catering to all age groups.
+                        What started in 2016, as an Inter-School contest with merely four events, Spark has now advanced to a national level multicultural event with over twenty components, catering to all age groups.
                      </p>
                      <p>
-                        Spark is an enthusiastic contest that has been near to the hearts of every SRCian for a long period of time. The whole school descends into a cheerful environment on this day, as many schools visit our campus in the hope of bagging victories for various events. Everyone enjoys the frenzy of activity as they prepare for their various activities. This competition not only demonstrates the students' competitive spirits, but it also provides them with an opportunity to meet new people and make new friends.
+                        Spark has reigned in every SRCians’ heart since its inception. The whole school descends into a boisterous environment on this day, with many schools visiting our campus ready to prove their mettle. Enthusiastic participants, loud cheering by the audience, the last minute at times loud warm-ups bring the 25- acre campus to life. This competition does not only act as a platform to showcase their competitive spirits, but it also provides them with an opportunity to spark new friendships.
                      </p>
                      <p>
-                        The pandemic prevented Spark from taking place in the year 2020, but we are returning with a blazing fire to give you the time of your life. With that, we'd like to extend a warm welcome to everyone participating online in Spark 2021!
+                        Unison World School, Dehradun was the recipient of the Spark Overall Trophy in 2019. However, Spark Contest 2020 could not be held because of the Covid pandemic but now we are back with Spark Contest, 2021.
+                     </p>
+                     <p>
+                        Spark Contest 2021 has all events designed and managed by the students, for the students, fostering in them entrepreneurial culture and ethical leadership.
+                     </p>
+                     <p>
+                        A spark in human history revolutionised human life!
+                     </p>
+                     <p>
+                        Come discover the fire within you!
                      </p>
                   </div>
                </div>
@@ -295,9 +356,9 @@
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Disney Fashion Show</p>
-                    <p class="subtitle">Fancy Dress Competition</p>
-                    <div class="content">
+                     <p class="title">Disney Fashion Show</p>
+                     <p class="subtitle">Fancy Dress Competition</p>
+                     <div class="content">
                         <strong>Event Number:</strong> J1 <br>
                         <strong>Description:</strong>Dress up as your Favourite Disney Character and explain what is so special about it. <br>
                         <strong>Grade:</strong>1 <br>
@@ -305,7 +366,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format <br>
                         <strong>Duration:</strong> not to exceed 1 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> The participant must dress up as their Favourite Disney Character to the closest possible resemblance and record a short speech sharing his/her views on why the character is special to him/her.
@@ -313,7 +373,6 @@
                            <li>Last Date of Submission: 7th August 2021
                            </li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Resemblance to the Disney Character
@@ -322,19 +381,17 @@
                            </li>
                            <li>Presentation Style</uli>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Disney Presents…</p>
-                    <p class="subtitle">Ad Bag</p>
-                    <div class="content">
+                     <p class="title">Disney Presents…</p>
+                     <p class="subtitle">Ad Bag</p>
+                     <div class="content">
                         <strong>Event Number:</strong> J2 <br>
                         <strong>Description:</strong>Advertise your favourite product from The Disney World. (Like Snow White’s apple or Cinderella’s shoe, etc.) <br>
                         <strong>Grade:</strong>2 <br>
@@ -342,7 +399,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format <br>
                         <strong>Duration:</strong> not to exceed 1 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> The participant is free to use relevant props.
@@ -352,7 +408,6 @@
                            <li>No editing or use of filters will be accepted.</li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Content
@@ -363,19 +418,17 @@
                            <li>Appeal of the Advertisement</li>
                            <li>Overall Presentation</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Once Upon a Change</p>
-                    <p class="subtitle">Story telling with a Twist</p>
-                    <div class="content">
+                     <p class="title">Once Upon a Change</p>
+                     <p class="subtitle">Story telling with a Twist</p>
+                     <div class="content">
                         <strong>Event Number:</strong> J3 <br>
                         <strong>Description:</strong>Tell a Disney Story by changing the known end with a self-composed new twist. <br>
                         <strong>Grade:</strong> 3 <br>
@@ -383,7 +436,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format <br>
                         <strong>Duration:</strong> not to exceed 2 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li>Only one participant from each school.
@@ -395,7 +447,6 @@
                            <li>Adding filters and sounds to the video is allowed.</li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Creativity
@@ -406,19 +457,17 @@
                            <li>Appeal of the Advertisement</li>
                            <li>Overall Presentation</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">If I fell into the World of Disney…</p>
-                    <p class="subtitle">English Elocution</p>
-                    <div class="content">
+                     <p class="title">If I fell into the World of Disney…</p>
+                     <p class="subtitle">English Elocution</p>
+                     <div class="content">
                         <strong>Event Number:</strong> J4 <br>
                         <strong>Description:</strong>Self-Composed Poem on a Disney Tale <br>
                         <strong>Grade:</strong> 4 & 5 <br>
@@ -426,7 +475,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format <br>
                         <strong>Duration:</strong> not to exceed 3 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> The poem should be based on any one Disney tale.
@@ -436,7 +484,6 @@
                            <li>The participants should not use more than 2 props.</li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Originality
@@ -446,19 +493,17 @@
                            <li>Voice Modulation</li>
                            <li>Overall Presentation</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Mask Me Anything </p>
-                    <p class="subtitle">Animal Mask Making</p>
-                    <div class="content">
+                     <p class="title">Mask Me Anything </p>
+                     <p class="subtitle">Animal Mask Making</p>
+                     <div class="content">
                         <strong>Event Number:</strong> J5 <br>
                         <strong>Description:</strong>Make a Mask of your Favourite Animal Character from any Disney Tale<br>
                         <strong>Grade:</strong> 1 - 3 <br>
@@ -466,7 +511,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
                         <strong>Duration:</strong> not to exceed 3 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> Participants must create an animal mask using any craft material.
@@ -475,7 +519,6 @@
                            </li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Creativity
@@ -484,19 +527,17 @@
                            </li>
                            <li>Visual Impact</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Tidey Up! </p>
-                    <p class="subtitle">Fish Aquarium</p>
-                    <div class="content">
+                     <p class="title">Tidey Up! </p>
+                     <p class="subtitle">Fish Aquarium</p>
+                     <div class="content">
                         <strong>Event Number:</strong> J6 <br>
                         <strong>Description:</strong>Create a model of a Fish Aquarium drawing inspiration from movies like Finding Nemo, Little Mermaid or Pirates of the Caribbean<br>
                         <strong>Grade:</strong> 4 & 5 <br>
@@ -504,7 +545,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
                         <strong>Duration:</strong> not to exceed 3 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> Participants must create a fish aquarium using waste products and craft material.
@@ -513,7 +553,6 @@
                            </li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Creativity
@@ -523,20 +562,17 @@
                            <li>Visual Impact</li>
                            <li>Originality</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Blueming Bloom </p>
-                    <p class="subtitle">Miniature Garden</p>
-                    <div class="content">
+                     <p class="title">Blueming Bloom </p>
+                     <p class="subtitle">Miniature Garden</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S1 <br>
                         <strong>Description:</strong>Create a small garden in a large bowl using natural plants.<br>
                         <strong>Grade:</strong> 6 & 7 <br>
@@ -544,7 +580,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
                         <strong>Duration:</strong> not to exceed 3 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> Participants must create a mini garden in a large bowl using natural plants, decorative objects, and garden accessories.
@@ -553,7 +588,6 @@
                            </li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Creativity
@@ -563,18 +597,17 @@
                            <li>Visual Impact</li>
                            <li>Originality</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Face Fantasy</p>
-                    <p class="subtitle">Face Painting</p>
-                    <div class="content">
+                     <p class="title">Face Fantasy</p>
+                     <p class="subtitle">Face Painting</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S2 <br>
                         <strong>Description:</strong>Face painting on the theme given.<br>
                         <strong>Grade:</strong> 8 & 9 <br>
@@ -582,7 +615,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
                         <strong>Duration:</strong> not to exceed 5 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> Theme for the Event: Funny Halloween Characters.
@@ -594,7 +626,6 @@
                            <li>The participant can also use a Make-Up Kit if needed to add finer details.</li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Creativity
@@ -604,19 +635,17 @@
                            <li>Visual Impact</li>
                            <li>Originality</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Fashion in my Jeans</p>
-                    <p class="subtitle">Fashion Designing</p>
-                    <div class="content">
+                     <p class="title">Fashion in my Jeans</p>
+                     <p class="subtitle">Fashion Designing</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S3 <br>
                         <strong>Description:</strong>Modernize a traditional dress from any culture.<br>
                         <strong>Grade:</strong> 10-12 <br>
@@ -624,7 +653,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) and Images <br>
                         <strong>Duration:</strong> not to exceed 8 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> The participant must submit their sketches and pictures of their creation.
@@ -636,7 +664,6 @@
                            <li>Sustainability</li>
                            <li>Impact on the Audience</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Creativity
@@ -644,19 +671,17 @@
                            <li>Adherence to theme
                            </li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Dancing through Cultures</p>
-                    <p class="subtitle">Dance</p>
-                    <div class="content">
+                     <p class="title">Dancing through Cultures</p>
+                     <p class="subtitle">Dance</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S4 <br>
                         <strong>Description:</strong>Dance (duet) on the given theme.<br>
                         <strong>Grade:</strong> 7-9 <br>
@@ -664,7 +689,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) and Images <br>
                         <strong>Duration:</strong> not to exceed 4 minute <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> Theme: Intercultural (International Folk Music + Indian Dance form).
@@ -676,7 +700,6 @@
                            <li>Participants must submit their final edited video only.</li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Music 
@@ -688,19 +711,17 @@
                            <li>Variety of movements and expressions</li>
                            <li>Overall Presentation</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Bach it up!</p>
-                    <p class="subtitle">Band</p>
-                    <div class="content">
+                     <p class="title">Bach it up!</p>
+                     <p class="subtitle">Band</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S5 <br>
                         <strong>Description:</strong>Band performance.<br>
                         <strong>Grade:</strong> 9-12 <br>
@@ -708,7 +729,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong> Video in Mp4 format (720/1080p) <br>
                         <strong>Duration:</strong> 5 Minutes <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> Genre: Hard Rock/ Pop/ Pop-Rock
@@ -719,7 +739,6 @@
                            <li>The participants are free to use any kind of software for compiling their videos and recording their instruments.</li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Vocals, rhythm, and coordination 
@@ -730,19 +749,17 @@
                            <li>Originality and Creativity </li>
                            <li>Overall Presentation</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Bollywood Fiesta  </p>
-                    <p class="subtitle">Solo Singing</p>
-                    <div class="content">
+                     <p class="title">Bollywood Fiesta  </p>
+                     <p class="subtitle">Solo Singing</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S6 <br>
                         <strong>Description:</strong>Solo Singing.<br>
                         <strong>Grade:</strong> 6-8 <br>
@@ -750,7 +767,6 @@
                         <strong>Language:</strong> Hindi <br>
                         <strong>Mode of submission:</strong>  Video in Mp4 format <br>
                         <strong>Duration:</strong> not to exceed 4 Minutes <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li> Theme: Bollywood 
@@ -760,7 +776,6 @@
                            <li>Pre-recorded backing tracks / Karaoke to be used.</li>
                            <li>Last Date of Submission: 7th August 2021.</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Rhythm and beat
@@ -770,19 +785,17 @@
                            <li>Synchronization and clarity</li>
                            <li>Overall Presentation</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Silent Awareness </p>
-                    <p class="subtitle">Mime + Video Making</p>
-                    <div class="content">
+                     <p class="title">Silent Awareness </p>
+                     <p class="subtitle">Mime + Video Making</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S7 <br>
                         <strong>Description:</strong>Enact a mime and record to create a video to spread awareness on any social issue with a catchline/slogan in the end.<br>
                         <strong>Grade:</strong> 8-10 <br>
@@ -790,7 +803,6 @@
                         <strong>Language:</strong> Hindi <br>
                         <strong>Mode of submission:</strong>Video in Mp4 Format<br>
                         <strong>Duration:</strong> not to exceed 1 Minutes <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li>The actors in the team to enact a mime keeping the social issue they wish to portray and recorded
@@ -800,7 +812,6 @@
                            <li>The catchline/slogan must be clearly visible in the video.</li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Acting
@@ -812,20 +823,17 @@
                            <li>Editing Skills</li>
                            <li>Overall Presentation/Impact</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Staying Focussed </p>
-                    <p class="subtitle">Photography</p>
-                    <div class="content">
+                     <p class="title">Staying Focussed </p>
+                     <p class="subtitle">Photography</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S8 <br>
                         <strong>Description:</strong>Recreate your favourite meme using a camera and a photoshopping tool.<br>
                         <strong>Grade:</strong> 7-9 and 10-12 <br>
@@ -833,7 +841,6 @@
                         <strong>Language:</strong> Hindi <br>
                         <strong>Mode of submission:</strong>Images in JPEG format and Video in Mp4 format (Time lapse)<br>
                         <strong>Duration:</strong> not to exceed 1 Minutes <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li>A team of two participants:  A Photographer from classes 7-9 and an Editor from classes 10-12.
@@ -845,7 +852,6 @@
                            <li>Photos that portray or otherwise include inappropriate and/or offensive content are strictly prohibited and will be immediately discarded.</li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Creativity
@@ -856,19 +862,17 @@
                            <li>Precision in idea</li>
                            <li>Overall Composition</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">The Laughter Asylum</p>
-                    <p class="subtitle">Stand-Up Comedy</p>
-                    <div class="content">
+                     <p class="title">The Laughter Asylum</p>
+                     <p class="subtitle">Stand-Up Comedy</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S9 <br>
                         <strong>Description:</strong>Stand-up Comedy performance<br>
                         <strong>Grade:</strong> 10-12 <br>
@@ -876,7 +880,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong>Zoom(live)(Link will be shared with the school that registers 3 days prior to the event.)<br>
                         <strong>Duration:</strong> 5 minutes <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li>Topics will be shared with the participating schools on registration to this event.
@@ -888,7 +891,6 @@
                            <li>The content of the Stand-Up Comedy must not contain any offensive or inappropriate language</li>
                            <li>It will be compulsory for the participant to switch ON their respective cameras otherwise their speech would not be marked.</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Content and Creativity
@@ -900,19 +902,17 @@
                            <li>Presentation</li>
                            <li>Confidence level</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">The Jalapeño Business </p>
-                    <p class="subtitle">Food Blogging</p>
-                    <div class="content">
+                     <p class="title">The Jalapeño Business </p>
+                     <p class="subtitle">Food Blogging</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S10 <br>
                         <strong>Description:</strong>Creating a Food Blog<br>
                         <strong>Grade:</strong> 9-12 <br>
@@ -920,7 +920,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong>Link to the Blog<br>
                         <strong>Duration:</strong> 5 minutes <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li>Participants may create the blog on any site of their choice.
@@ -934,7 +933,6 @@
                            <li>Add a short description about the team members and their role in the Food Blog.</li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Blog Name
@@ -946,18 +944,16 @@
                            <li>Clarity on the method of cooking</li>
                            <li>Overall look/appeal of the blog</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Farmvention</p>
-                    <div class="content">
+                     <p class="title">Farmvention</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S11 <br>
                         <strong>Description:</strong>Problem Solving – Innovative idea<br>
                         <strong>Grade:</strong> 8-10<br>
@@ -965,7 +961,6 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong>Video in Mp4 format<br>
                         <strong>Duration:</strong>not to exceed 2 Minutes <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li>Participants must think of the problems that Indian farmers face and create an invention, innovation or idea to help Indian farmers.
@@ -974,7 +969,6 @@
                            </li>
                            <li>Last Date of Submission: 7th August 2021</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Creativity
@@ -984,19 +978,17 @@
                            <li>Environmental Impact</li>
                            <li>Problem Solving Ability of the Product</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
-
             <div class="tile is-ancestor">
                <div class="tile is-parent">
                   <article class="tile is-child notification is-danger">
-                    <p class="title">Start- Up Trials </p>
-                    <p class="subtitle">Young Entrepreneur’s Start-Up Plan</p>
-                    <div class="content">
+                     <p class="title">Start- Up Trials </p>
+                     <p class="subtitle">Young Entrepreneur’s Start-Up Plan</p>
+                     <div class="content">
                         <strong>Event Number:</strong> S 12 <br>
                         <strong>Description:</strong>Create a plan for a Start-Up<br>
                         <strong>Grade:</strong> 9-12 <br>
@@ -1004,14 +996,14 @@
                         <strong>Language:</strong> English <br>
                         <strong>Mode of submission:</strong>Zoom(live) (Link will be shared with the school that registers 3 days prior to the event.)<br>
                         <strong>Duration:</strong>5 mins <br>
-
                         <h4>Rules and Regulations: </h4>
                         <ul>
                            <li>The team must plan the Start-up dividing the work among themselves. However, any 2 members will be allowed to present the plan on the Final Day. This decision lies entirely on the team.
                            </li>
                            <li>The Team must plan the Start-up presuming that they have a 1 crore rupees to invest in their Start-up and they will show its use over the complete project.
                            </li>
-                           <li>The participating team must give a presentation (ppt or video) on their start-up company. The presentation must contain
+                           <li>
+                              The participating team must give a presentation (ppt or video) on their start-up company. The presentation must contain
                               <ol>
                                  <li>Product description. </li>
                                  <li>Media and Advertisement (Print Media Advertisement to be designed)</li>
@@ -1022,7 +1014,6 @@
                            </li>
                            <li>The team cannot use other's ideas and works (digital images, illustrations, audio clips, movies, photos, design, etc.). You are not allowed to use even copyright free or royalty free materials. You need to create them on your own. Please remember that the use of other’s creation will lead your team to disqualification.</li>
                         </ul>
-
                         <h4>Judgement Criteria:</h4>
                         <ul>
                            <li>Creativity
@@ -1032,9 +1023,8 @@
                            <li>Marketing and Market Research</li>
                            <li>Communication</li>
                         </ul>
-
                         <strong>In case of queries, please contact:</strong>
-                    </div>
+                     </div>
                   </article>
                </div>
             </div>
@@ -1047,95 +1037,114 @@
                <div class="columns" style="position: static;">
                   <!--Results-->
                   <div class="column is-half box container content ml-1 mr-1 mt-6 mb-0">
-                     <h1 class="title is-3 has-text-centered">Spark 2021 Results</h1><hr>
-                     <strong><p style="color:darkred;">*Results for Spark 2021 have not yet been announced*</p></strong>
+                     <h1 class="title is-3 has-text-centered">Spark 2021 Results</h1>
+                     <hr>
+                     <strong>
+                        <p style="color:darkred;">*Results for Spark 2021 have not yet been announced*</p>
+                     </strong>
                      <br>
                      <p style="color:dimgray;">For queries please <a href="#contact" style="color:mediumslateblue">contact</a> the school or the event-specific incharges.</p>
                   </div>
+
                   <!--Contact Us-->
                   <div class="column is-half box container content ml-1 mr-1 mt-6 mb-0" id="contact">
-                     <h1 class="title is-3 has-text-centered">Contact Details</h1><hr>
+                     <h1 class="title is-3 has-text-centered">Contact Details</h1>
+                     <hr>
                      <div class="columns">
                         <div class="column is-half">
+
                            <!--School Contacts-->
-                           <strong><p>School:</p></strong>
+                           <strong>
+                              <p>School:</p>
+                           </strong>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-envelope"></i>
-                             </span>
-                             <span>srcsdoon.dehradun@gmail.com</span>
+                           <span class="icon">
+                           <i class="fas fa-envelope"></i>
+                           </span>
+                           <span>srcsdoon.dehradun@gmail.com</span>
                            </span>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-phone"></i>
-                             </span>
-                             <span>+91 89799 58111</span>
+                           <span class="icon">
+                           <i class="fas fa-phone"></i>
                            </span>
+                           <span>+91 89799 58111</span>
+                           </span>
+
                            <!--Activity Coordinators Contacts-->
-                           <strong><p><br>Activity Coordinators:</p></strong>
+                           <strong>
+                              <p><br>Activity Coordinators:</p>
+                           </strong>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-envelope"></i>
-                             </span>
-                             <span>sharmaKomal1976@gmail.com</span>
+                           <span class="icon">
+                           <i class="fas fa-envelope"></i>
+                           </span>
+                           <span>sharmaKomal1976@gmail.com</span>
                            </span>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-phone"></i>
-                             </span>
-                             <span>+91 97616 62521</span>
+                           <span class="icon">
+                           <i class="fas fa-phone"></i>
+                           </span>
+                           <span>+91 97616 62521</span>
                            </span>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-envelope"></i>
-                             </span>
-                             <span>qadr829@gmail.com</span>
+                           <span class="icon">
+                           <i class="fas fa-envelope"></i>
+                           </span>
+                           <span>qadr829@gmail.com</span>
                            </span>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-phone"></i>
-                             </span>
-                             <span>+91 75004 87988</span>
+                           <span class="icon">
+                           <i class="fas fa-phone"></i>
+                           </span>
+                           <span>+91 75004 87988</span>
                            </span>
                         </div>
                         <div class="column is-half">
+
                            <!--Student Council Contacts-->
-                           <strong><p>Student Council:</p></strong>
+                           <strong>
+                              <p>Student Council:</p>
+                           </strong>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-envelope"></i>
-                             </span>
-                             <span>studentcouncil.srcs@gmail.com</span>
+                           <span class="icon">
+                           <i class="fas fa-envelope"></i>
                            </span>
+                           <span>studentcouncil.srcs@gmail.com</span>
+                           </span>
+
                            <!--Event Heads Contacts-->
-                           <strong><p><br>Event Management Student Heads:</p></strong>
+                           <strong>
+                              <p><br>Event Management Student Heads:</p>
+                           </strong>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-envelope"></i>
-                             </span>
-                             <span>aryan.vadera21@gmail.com</span>
+                           <span class="icon">
+                           <i class="fas fa-envelope"></i>
+                           </span>
+                           <span>aryan.vadera21@gmail.com</span>
                            </span>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-phone"></i>
-                             </span>
-                             <span>+91 75349 41941</span>
+                           <span class="icon">
+                           <i class="fas fa-phone"></i>
+                           </span>
+                           <span>+91 75349 41941</span>
                            </span>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-envelope"></i>
-                             </span>
-                             <span>ananyagoyal1619@gmail.com</span>
+                           <span class="icon">
+                           <i class="fas fa-envelope"></i>
+                           </span>
+                           <span>ananyagoyal1619@gmail.com</span>
                            </span>
                            <span class="icon-text">
-                             <span class="icon">
-                               <i class="fas fa-phone"></i>
-                             </span>
-                             <span>+91 63988 51772</span>
+                           <span class="icon">
+                           <i class="fas fa-phone"></i>
+                           </span>
+                           <span>+91 63988 51772</span>
                            </span>
                         </div>
                      </div>
-                     <p style="color:dimgray;">To contact event-specific incharges please check <u><a  href="#events" style="color:mediumslateblue;">events</a></u></p></strong><hr>
+                     <p style="color:dimgray;">To contact event-specific incharges please check <u><a  href="#events" style="color:mediumslateblue;">events</a></u></p>
+                     </strong>
+                     <hr>
                      <p><strong>Note:</strong><strong style="color:dimgray"> Submission of entries for various events will only be accepted on </strong><strong style="color:lightslategray;">srcsspark21@gmail.com</strong></p>
                   </div>
                </div>
@@ -1151,41 +1160,41 @@
                   <img class="is-rounded" src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/srcspng3.png">
                </figure>
                <span class="icon-text">
-                 <span class="icon" style="color:#D6D6D6;">
-                   <i class="fas fa-envelope"></i>
-                 </span>
-                 <span style="color:#D6D6D6;">srcsdoon.dehradun@gmail.com</span>
+               <span class="icon" style="color:#D6D6D6;">
+               <i class="fas fa-envelope"></i>
+               </span>
+               <span style="color:#D6D6D6;">srcsdoon.dehradun@gmail.com</span>
                </span>
                <span class="icon-text">
-                 <span class="icon" style="color:#D6D6D6;">
-                   <i class="fas fa-phone"></i>
-                 </span>
-                 <span style="color:#D6D6D6;">+91 89799 58111</span>
+               <span class="icon" style="color:#D6D6D6;">
+               <i class="fas fa-phone"></i>
+               </span>
+               <span style="color:#D6D6D6;">+91 89799 58111</span>
                </span>
             </div>
             <div class=" column is-half has-text-right" style="">
                <div>
-                  <strong><p style="color:#D6D6D6;">Follow us on :</p></strong>
-               </div>
-                  <a href="https://www.facebook.com/srcsdehradun" class="icon">
-                     <i class="fab fa-facebook"></i>
-                  </a>
-                  <a href="https://instagram.com/srcsdehradun" class="icon">
-                     <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="https://www.youtube.com/channel/UCR5zZNmWZO-Sk_JZfWLXM-Q" class="icon">
-                     <i class="fab fa-youtube"></i>
-                  </a>
-                  <br><br>
                   <strong>
-                     <a href="https://srcsdoon.com/rationale/ranked-no-1/" class="button is-small is-rounded is-warning is-active is-outlined">
-                        Visit School Website
-                     </a>
+                     <p style="color:#D6D6D6;">Follow us on :</p>
                   </strong>
+               </div>
+               <a href="https://www.facebook.com/srcsdehradun" class="icon">
+               <i class="fab fa-facebook"></i>
+               </a>
+               <a href="https://instagram.com/srcsdehradun" class="icon">
+               <i class="fab fa-instagram"></i>
+               </a>
+               <a href="https://www.youtube.com/channel/UCR5zZNmWZO-Sk_JZfWLXM-Q" class="icon">
+               <i class="fab fa-youtube"></i>
+               </a>
+               <br><br>
+               <strong>
+               <a href="https://srcsdoon.com/rationale/ranked-no-1/" class="button is-small is-rounded is-warning is-active is-outlined">
+               Visit School Website
+               </a>
+               </strong>
             </div>
          </div>
       </footer>
    </body>
 </html>
-
-
