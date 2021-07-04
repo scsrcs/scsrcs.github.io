@@ -1,29 +1,47 @@
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
+  #cartext {
+    position: relative;
+    bottom: 193px;
+  }
+  #welc {
+    font-size: 15px;
   }
 }
 
 /* iPads (landscape) ----------- */
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-  /* Styles */
+and (min-device-width : 321px) 
+and (max-device-width : 768px) {
+  #cartext {
+    position: relative;
+    bottom: 260px;
+  }
+  #welc {
+    font-size: 20px;
+  }
 }
 
 /* iPads (portrait) ----------- */
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
+and (min-device-width : 769px) 
+and (max-device-width : 1024px) {
+  #cartext {
+    position: relative;
+    bottom: 480px;
+  }
   /* Styles */
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 1025px) {
   /* Styles */
+  #cartext {
+    position: relative;
+    bottom: 390px;
+  }
 }
 
 /* Large screens ----------- */
