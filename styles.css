@@ -3,7 +3,7 @@
 and (max-width : 320px) {
   #cartext {
     position: relative;
-    bottom: 193px;
+    bottom: 50px;
   }
   #welc {
     font-size: 15px;
@@ -16,7 +16,7 @@ and (min-device-width : 321px)
 and (max-device-width : 768px) {
   #cartext {
     position: relative;
-    bottom: 260px;
+    bottom: 120px;
   }
   #welc {
     font-size: 16px;
@@ -29,7 +29,7 @@ and (min-device-width : 769px)
 and (max-device-width : 1024px) {
   #cartext {
     position: relative;
-    bottom: 480px;
+    bottom: 350px;
   }
   /* Styles */
 }
@@ -40,7 +40,7 @@ and (min-width : 1025px) {
   /* Styles */
   #cartext {
     position: relative;
-    bottom: 390px;
+    bottom: 410px;
   }
 }
 
@@ -52,7 +52,7 @@ and (min-width : 1824px) {
 
 
 .body {
-  background: url(https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/stock-photo-1.jpg) no-repeat;
+  background: assets/srcsbanner.jpg no-repeat;
   /* Keep the inherited background full size. */
   background-attachment: fixed; 
   background-size: cover;
@@ -84,5 +84,4 @@ and (min-width : 1824px) {
   bottom: 0;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
   filter: blur(10px);
-  margin: -20px;
 }
