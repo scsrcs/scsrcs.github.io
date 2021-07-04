@@ -3,7 +3,7 @@
 and (max-width : 320px) {
   #cartext {
     position: relative;
-    bottom: 50px;
+    bottom: 150px;
   }
   #welc {
     font-size: 15px;
@@ -16,7 +16,7 @@ and (min-device-width : 321px)
 and (max-device-width : 768px) {
   #cartext {
     position: relative;
-    bottom: 120px;
+    bottom: 150px;
   }
   #welc {
     font-size: 16px;
