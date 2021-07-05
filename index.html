@@ -25,17 +25,17 @@
       <header>
          <nav style="top: 0; position: fixed; z-index: 10; box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%); background-color: #333533 ;"class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-               <img src="https://raw.githubusercontent.com/scsrcs/scsrcs.github.io/main/assets/srcspng3.png" width="300" height="75">
+               <img src="assets/srcspng3.png" width="300" height="75">
                <a id="burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                <span aria-hidden="true"></span>
                <span aria-hidden="true"></span>
                <span aria-hidden="true"></span>
                </a>
             </div>
-            <div id="navbarBasicExample"  class="navbar-menu">
+            <div id="navbarBasicExample" style="background-color:#333533 ;" class="navbar-menu">
                <div class="navbar-end">
                   <div class="navbar-item">
-                     <a class="navbar-item button is-white" href="#home">
+                     <a class="navbar-item button is-warning is-outlined" href="#home">
                      <span class="icon">
                      <i class="fas fa-home"></i>
                      </span>
@@ -43,7 +43,7 @@
                      </a>
                   </div>
                   <div class="navbar-item">
-                     <a class="navbar-item button is-white" href="#about">
+                     <a class="navbar-item button is-warning is-outlined" href="#about">
                      <span class="icon">
                      <i class="fas fa-info"></i>
                      </span>
@@ -51,7 +51,7 @@
                      </a>
                   </div>
                   <div class="navbar-item">
-                     <a class="navbar-item button is-white" href="#events">
+                     <a class="navbar-item button is-warning is-outlined" href="#events">
                      <span class="icon">
                      <i class="fas fa-calendar-alt"></i>
                      </span>
@@ -59,7 +59,7 @@
                      </a>
                   </div>
                   <div class="navbar-item">
-                     <a class="navbar-item button is-white" href="#results">
+                     <a class="navbar-item button is-warning is-outlined" href="#results">
                      <span class="icon">
                      <i class="fas fa-poll"></i>
                      </span>
@@ -67,7 +67,7 @@
                      </a>
                   </div>
                   <div class="navbar-item">
-                     <a class="navbar-item button is-white" href="#contact">
+                     <a class="navbar-item button is-warning is-outlined" href="#contact">
                      <span class="icon">
                      <i class="fas fa-address-book"></i>
                      </span>
@@ -76,7 +76,7 @@
                   </div>
                   <div class="navbar-item">
                      <div class="buttons" id="Register">
-                        <a class="button is-danger">
+                        <a class="button is-warning is-active is-focused">
                         <strong>Register</strong>
                         </a>
                      </div>
@@ -96,6 +96,9 @@
                   <button class="delete" id="Rmdclose" aria-label="close"></button>
                </header>
                <section class="modal-card-body">
+                  <div class="content">
+                     <blockquote>Please submit this form <strong>only once</strong>. If you wish to change a form entry after already having submitted the form, please mail the changes to srcsspark21@gmail.com</blockquote>
+                  </div>
                   <form name="Register" data-netlify-recaptcha="true" data-netlify="true">
 
                      <!--School Name, Phone Number and Email-->
@@ -949,27 +952,87 @@
                      </div>
                      <div class="box">
                         <p class="label is-medium">
-                           <strong>J1- Disney Fashion Show</strong>
+                           <strong>S12- Start-Up Trials</strong>
                         </p>
                         <p class="label" style="">
-                           (Fancy Dress Competition)
+                           (Young Entrepreneur's Start-Up Plan)
                         </p>
                         <div class="level is-horizontal is-mobile">
                            <div class="level-left label is-small">
-                              <strong>Grade(s): 1</strong>
+                              <strong>Grade(s): 9-12</strong>
                            </div>
                            <div class="level-right label is-small">
-                              <strong>No. of Participants: 1</strong>
+                              <strong>No. of Participants: 4</strong>
                            </div>                   
                         </div>
                         <div class="field is-horizontal">
                            <div class="field-label is-normal">
-                              <label class="label">Participant</label>
+                              <label class="label">Participant 1</label>
                            </div>
                            <div class="field-body">
                               <div class="field">
                                  <p class="control is-expanded has-icons-left">
-                                    <input class="input" type="text" placeholder="Participant Name">
+                                    <input class="input" type="text" placeholder="Participant Name 1">
+                                    <span class="icon is-small is-left">
+                                    <i class="fa fa-user"></i>
+                                    </span>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="field is-horizontal">
+                           <div class="field-label is-normal">
+                              <label class="label">Participant 2</label>
+                           </div>
+                           <div class="field-body">
+                              <div class="field">
+                                 <p class="control is-expanded has-icons-left">
+                                    <input class="input" type="text" placeholder="Participant Name 2">
+                                    <span class="icon is-small is-left">
+                                    <i class="fa fa-user"></i>
+                                    </span>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="field is-horizontal">
+                           <div class="field-label is-normal">
+                              <label class="label">Participant 3</label>
+                           </div>
+                           <div class="field-body">
+                              <div class="field">
+                                 <p class="control is-expanded has-icons-left">
+                                    <input class="input" type="text" placeholder="Participant Name 3">
+                                    <span class="icon is-small is-left">
+                                    <i class="fa fa-user"></i>
+                                    </span>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="field is-horizontal">
+                           <div class="field-label is-normal">
+                              <label class="label">Participant 4</label>
+                           </div>
+                           <div class="field-body">
+                              <div class="field">
+                                 <p class="control is-expanded has-icons-left">
+                                    <input class="input" type="text" placeholder="Participant Name 4">
+                                    <span class="icon is-small is-left">
+                                    <i class="fa fa-user"></i>
+                                    </span>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="field is-horizontal">
+                           <div class="field-label is-normal">
+                              <label class="label">Participant 5</label>
+                           </div>
+                           <div class="field-body">
+                              <div class="field">
+                                 <p class="control is-expanded has-icons-left">
+                                    <input class="input" type="text" placeholder="Participant Name 5">
                                     <span class="icon is-small is-left">
                                     <i class="fa fa-user"></i>
                                     </span>
@@ -978,6 +1041,7 @@
                            </div>
                         </div>
                      </div>
+
                      <!--Captcha to prevent spam-->
                      <div class="container" data-netlify-recaptcha="true"></div>
                   </form>
@@ -990,7 +1054,7 @@
          </div>
 
          <!--HOME CAROUSEL-->
-         <section id="home" class="pr-0 pb-0 pt-0 mt-6 pl-0" style="background-color: #333533 ;">
+         <section id="home" class="pr-0 pb-0 pt-0 mt-6 pl-0" style="background-color: #202020 ;">
             <div class="image is-fullwidth is-fullheight">
                <img src="assets/srcsbanner.jpg">
             </div>
@@ -1004,47 +1068,47 @@
                      <li id="welc" style="font-family: 'Fira Sans', sans-serif;">7th August, 2021- Spark Contest Phase 1 (Submission of Videos, Audios and Photographs)</li>
                      <li id="welc" style="font-family: 'Fira Sans', sans-serif;">13th August, 2021- Spark Contest Phase 2 (Online Competitions)</li>
                      <li id="welc" style="font-family: 'Fira Sans', sans-serif;">14th August, 2021- Spark Contest Phase 3 (Declaration of Results)</li>
-                     <li><strong><a class="button is-danger" id="Register2">Register</a></strong></li>
+                     <li><strong><a class="button is-warning is-active is-focused" id="Register2">Register</a></strong></li>
                   </ul>
                </div>
             </div>
          </section>
 
          <!--ABOUT SCHOOL & SPARK-->
-         <section class="section is-medium" id="about">
+         <section class="section is-small" id="about">
             <div class="container">
                <div class="columns" style="position: static;">
 
                   <!--About The School-->
                   <div class="column is-half box container content ml-1 mr-1 mt-0 mb-6" style="background-color: #333533 ;">
                      <h1 class="title is-3 has-text-centered" style="font-family: 'Fira Sans', sans-serif; color: #FFD100;">About The School</h1>
-                     <hr>
+                     <hr style="background-color: dimgray;">
                      <div>
                         <img src="assets/abtschool.jpg" >
                      </div>
                      <br>
-                     <p style="font-family: 'Lora', serif; color: #FFD100">
+                     <p style="font-family: 'Lora', serif; color: #D6D6D6">
                         Shri Ram Centennial School is a co-ed Boarding and Day Boarding institution situated in the very scenic Dehradun Valley. It draws on the very best of modern educational practices. Excellence in academics is complemented with a plethora of co-curricular activities and we aim to develop young people who are visionary, articulate, equipped to achieve their full potential in leadership and life and have a global outlook.
                      </p>
-                     <p style="font-family: 'Lora', serif; color: #FFD100;">
+                     <p style="font-family: 'Lora', serif; color: #D6D6D6;">
                         The vision statement of the school states that ‘the  community will  be enhanced through a variety of social, recreational, cultural activities, adventure sports, community service to ensure the overall growth of the young minds.’ It is our endeavor at Shri Ram Centennial School, Dehradun to provide stimulating opportunities where we create Global Citizens who understand that love and compassion are complimentary to each other and are the greatest possession. Our curriculum draws on the very best of modern educational practices where students are exposed to a wide range of cultures and activities where they think and  act globally. Our aim is to develop young people who are visionary, articulate and ethical equipped to achieve their full potential in leadership and life. International dimensions help foster and augment the  7C’s that our school stand for i.e. Creativity, Critical thinking, Collaboration, Confidence, Curiosity, Compassion and Commitment.
                      </p>
-                     <hr>
+                     <hr style="background-color: dimgray;">
                      <div class="level is-horizontal">
                         <div class="level-left">
                            <div class="level-item has-text-centered">
-                              <strong><a class="button is-primary is-rounded" href="https://srcsdoon.com/rationale/ranked-no-1/" target="_blank">Visit School Website</a></strong>
+                              <strong><a class="button is-warning is-active is-rounded" href="https://srcsdoon.com/rationale/ranked-no-1/" target="_blank">Visit School Website</a></strong>
                            </div>
                         </div>
                         <div class="level-right">
                            <div class="level-item">
-                              <a href="https://www.facebook.com/srcsdehradun" target="_blank" class="icon">
+                              <a href="https://www.facebook.com/srcsdehradun" target="_blank" class="icon" style="color:hsl(48, 100%, 67%);">
                               <i class="fab fa-facebook"></i>
                               </a>
-                              <a href="https://instagram.com/srcsdehradun" target="_blank" class="icon">
+                              <a href="https://instagram.com/srcsdehradun" target="_blank" class="icon" style="color:hsl(48, 100%, 67%);">
                               <i class="fab fa-instagram"></i>
                               </a>
-                              <a href="https://www.youtube.com/channel/UCR5zZNmWZO-Sk_JZfWLXM-Q" target="_blank" class="icon">
+                              <a href="https://www.youtube.com/channel/UCR5zZNmWZO-Sk_JZfWLXM-Q" target="_blank" class="icon" style="color:hsl(48, 100%, 67%);">
                               <i class="fab fa-youtube"></i>
                               </a>
                            </div>
@@ -1055,31 +1119,31 @@
                   <!--About Spark-->
                   <div class="column is-half box container content ml-1 mr-1 mt-0 mb-6" style="background-color: #333533 ;">
                      <h1 class="title is-3 has-text-centered" style="font-family: 'Fira Sans', sans-serif; color: #FFD100;">About Spark</h1>
-                     <hr>
+                     <hr style="background-color: dimgray;">
                      <strong>
-                        <p class="has-text-centered" style="color: #FFD100; font-family: 'Lora', serif;">
-                           <u>"Every child has a spark. SRCS Spark contest offers the challenge to tap it!"</u>
+                        <p class="has-text-centered" style="color: #FFEE32; font-family: 'Lora', serif;">
+                           "Every child has a spark. SRCS Spark contest offers the challenge to tap it!"
                         </p>
                      </strong>
-                     <p style="font-family: 'Lora', serif; color: #FFD100;">
+                     <p style="font-family: 'Lora', serif; color: #D6D6D6;">
                         Our vision from the very beginning has remained the same: to develop our students holistically and to discover their intrinsic creativity and ignite this spark. A spark is the first step to kindle the fire within. Organised by Shri Ram Centennial School every year, the Spark Contest is a wonderful opportunity for those participants who have the fiery aspirations in them to ignite their "Creative Spark" and to exhibit their talents.
                      </p>
-                     <p style="font-family: 'Lora', serif; color: #FFD100;">
+                     <p style="font-family: 'Lora', serif; color: #D6D6D6;">
                         What started in 2016, as an Inter-School contest with merely four events, Spark has now advanced to a national level multicultural event with over twenty components, catering to all age groups.
                      </p>
-                     <p style="font-family: 'Lora', serif; color: #FFD100;">
+                     <p style="font-family: 'Lora', serif; color: #D6D6D6;">
                         Spark has reigned in every SRCians’ heart since its inception. The whole school descends into a boisterous environment on this day, with many schools visiting our campus ready to prove their mettle. Enthusiastic participants, loud cheering by the audience, the last minute at times loud warm-ups bring the 25- acre campus to life. This competition does not only act as a platform to showcase their competitive spirits, but it also provides them with an opportunity to spark new friendships.
                      </p>
-                     <p style="font-family: 'Lora', serif; color: #FFD100;">
+                     <p style="font-family: 'Lora', serif; color: #D6D6D6;">
                         Unison World School, Dehradun was the recipient of the Spark Overall Trophy in 2019. However, Spark Contest 2020 could not be held because of the Covid pandemic but now we are back with Spark Contest, 2021.
                      </p>
-                     <p style="font-family: 'Lora', serif; color: #FFD100;">
+                     <p style="font-family: 'Lora', serif; color: #D6D6D6;">
                         Spark Contest 2021 has all events designed and managed by the students, for the students, fostering in them entrepreneurial culture and ethical leadership.
                      </p>
-                     <p style="font-family: 'Lora', serif; color: #FFD100;">
+                     <p style="font-family: 'Lora', serif; color: #D6D6D6;">
                         A spark in human history revolutionised human life!
                      </p>
-                     <p style="font-family: 'Lora', serif; color: #FFD100;">
+                     <p style="font-family: 'Lora', serif; color: #D6D6D6;">
                         Come discover the fire within you!
                      </p>
                   </div>
@@ -1088,37 +1152,39 @@
          </section>
 
          <!--EVENTS-->
-         <hr id="events"><br>
+         <hr style="background-color: dimgray;" id="events"><br>
          <div class="box container" style="background-color: #333533 ;">
-            <h1 class="title is-3 has-text-centered" style="font-family: 'Fira Sans', sans-serif;">Events</h1>
+            <h1 class="title is-3 has-text-centered" style="font-family: 'Fira Sans', sans-serif; color: #FFD100">Events</h1>
             <div class="content">
-               <blockquote style="font-family: 'Lora', serif;">
-                  <u><strong>General Guidelines for Spark 2021:</strong></u>
+               <blockquote style="font-family: 'Lora', serif; background-color: #42413D; color: #959492;">
+                  <u><strong style="color: #B2AFAC">General Guidelines for Spark 2021:</strong></u>
                   <ul>
                      <li>All events will be conducted virtually</li>
                      <li>Participants must register through the <strong style="color:indianred;">Spark Contest 2021 Website Registration link latest by 23<sup>rd</sup> July, 2021.</strong></li>
                      <li>There is no entry fee for the competition</li>
                      <li>The participants are requested to submit their entries (videos, audios, photographs) as per the date and time given for each event. <strong style="color:indianred;">Failing to meet the deadline will result in disqualification.</strong></li>
                      <li>The submissions/file names must include the event number, name of the participant and the school.</li>
-                     <li>All submissions must be made in the following format:<br><strong>Video: </strong><strong style="color:lightslategray;">.mp4</strong><br>
-                        [<em>Video quality - 720p. Screen size - 16:9 (landscape/ full screen). File size (per performance) must not exceed more than 200MB and therefore needs to be accordingly reduced through an editing software.</em>]<br><strong>Audio: </strong><strong style="color:lightslategray;">.mp3</strong><br><strong>Photographs: </strong><strong style="color:lightslategray;">.jpeg</strong></li>
-                     <li>The mode of submission should be any one of the following: <u>One Drive</u>, <u>Google Drive</u> or <u>We transfer</u>. All submission links must be collated and sent together to the host school only once in a single email to: <strong style="color:lightslategray; font-family: 'Lora', serif"><span class="icon-text"><span class="icon"><i class="fas fa-envelope"></i></span><span style="font-family: 'Lora', serif"><em>srcsspark21@gmail.com</em></span></span></strong></p></li>
-                     <li>Dress code for Online events scheduled for <em>13<sup>th</sup> August 2021:</em> <u>School Formals</u></li>
+                     <li>All submissions must be made in the following format:<br><strong style="color: #B2AFAC">Video: </strong><strong style="color:lightslategray;">.mp4</strong><br>
+                        [<em>Video quality - 720p. Screen size - 16:9 (landscape/ full screen). File size (per performance) must not exceed more than 200MB and therefore needs to be accordingly reduced through an editing software.</em>]<br><strong style="color: #B2AFAC">Audio: </strong><strong style="color:lightslategray;">.mp3</strong><br><strong style="color: #B2AFAC">Photographs: </strong><strong style="color:lightslategray;">.jpeg</strong></li>
+                     <li>The mode of submission should be any one of the following: <u style="color:#B2AFAC">One Drive</u>, <u style="color:#B2AFAC">Google Drive</u> or <u style="color:#B2AFAC">We transfer</u>. All submission links must be collated and sent together to the host school only once in a single email to: <strong style="color:lightslategray; font-family: 'Lora', serif"><span class="icon-text"><span class="icon"><i class="fas fa-envelope"></i></span><span style="font-family: 'Lora', serif"><em>srcsspark21@gmail.com</em></span></span></strong></p></li>
+                     <li>Dress code for Online events scheduled for <em>13<sup>th</sup> August 2021:</em> <u style="color:#B2AFAC">School Formals</u></li>
                      <li>The Result will be published on the Spark Contest 2021 Website on <em>14<sup>th</sup> August 2021.</em></li>
                      <li>Position Holders will be conferred with e-certificates.</li>
                      <li>The decision of the judges will be final and binding.</li>
-                     <li><strong>The host school will not be held responsible for any technical difficulties that might arise at the participant’s end during online zoom events.</strong></li>
+                     <li><strong style="color: #B2AFAC">The host school will not be held responsible for any technical difficulties that might arise at the participant’s end during online zoom events.</strong></li>
                   </ul>
                </blockquote>
             </div>
-            <p style="font-family: 'Lora', serif; color: #FFD100;">
-               <strong>Download a detailed list of all events: </strong><a class="button is-small is-warning is-rounded">Download</a>
+            <p>
+               <strong style="font-family: 'Lora', serif; color: #D6D6D6;">Download a detailed list of all events:  </strong><a class="button is-small is-warning is-rounded is-focused" download="assets/srcsbanner.jpg">Download</a>
             </p><br>
+
+            <!--Event Grid-->
             <div class="columns is-multiline ml-4 mr-4 is-mobile">
 
                <!--J1-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/J1_.JPG">
@@ -1139,8 +1205,33 @@
                         <button class="delete" id="J1close" aria-label="close"></button>
                      </header>
                      <section class="modal-card-body">
-                        <div class="content">
-                           
+                        <div class="container">
+                           <p class="title">Disney Fashion Show</p>
+                           <p class="subtitle">Fancy Dress Competition</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> J1 <br>
+                              <strong>Description:</strong>Dress up as your Favourite Disney Character and explain what is so special about it. <br>
+                              <strong>Grade:</strong>1 <br>
+                              <strong>No. of Participants:</strong> 1 <br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format <br>
+                              <strong>Duration:</strong> not to exceed 1 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> The participant must dress up as their Favourite Disney Character to the closest possible resemblance and record a short speech sharing his/her views on why the character is special to him/her.
+                                 </li>
+                                 <li>Last Date of Submission: 7th August 2021
+                                 </li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Resemblance to the Disney Character
+                                 </li>
+                                 <li>Content and Clarity
+                                 </li>
+                                 <li>Presentation Style</uli>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1148,7 +1239,7 @@
 
                <!--J2-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/J2_.JPG">
@@ -1170,7 +1261,36 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Disney Presents…</p>
+                           <p class="subtitle">Ad Bag</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> J2 <br>
+                              <strong>Description:</strong>Advertise your favourite product from The Disney World. (Like Snow White’s apple or Cinderella’s shoe, etc.) <br>
+                              <strong>Grade:</strong>2 <br>
+                              <strong>No. of Participants:</strong> 1 <br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format <br>
+                              <strong>Duration:</strong> not to exceed 1 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> The participant is free to use relevant props.
+                                 </li>
+                                 <li>The participant must dress up appropriately.
+                                 </li>
+                                 <li>No editing or use of filters will be accepted.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Content
+                                 </li>
+                                 <li>Creativity 
+                                 </li>
+                                 <li>Adherence to the theme</li>
+                                 <li>Appeal of the Advertisement</li>
+                                 <li>Overall Presentation</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1178,7 +1298,7 @@
 
                <!--J3-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/J3_.JPG">
@@ -1200,7 +1320,38 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Once Upon a Change</p>
+                           <p class="subtitle">Story telling with a Twist</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> J3 <br>
+                              <strong>Description:</strong>Tell a Disney Story by changing the known end with a self-composed new twist. <br>
+                              <strong>Grade:</strong> 3 <br>
+                              <strong>No. of Participants:</strong> 1 <br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format <br>
+                              <strong>Duration:</strong> not to exceed 2 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li>Only one participant from each school.
+                                 </li>
+                                 <li>The Participant must choose a short Disney tale.
+                                 </li>
+                                 <li>The participant should change the end of the story using their creativity and imagination.</li>
+                                 <li>The participant must wear a costume to enhance the overall effect of the recitation.</li>
+                                 <li>Adding filters and sounds to the video is allowed.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Creativity
+                                 </li>
+                                 <li>Clarity and Fluency 
+                                 </li>
+                                 <li>Expressions and Intonation</li>
+                                 <li>Appeal of the Advertisement</li>
+                                 <li>Overall Presentation</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1208,7 +1359,7 @@
 
                <!--J4-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/J4_.JPG">
@@ -1230,7 +1381,35 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">If I fell into the World of Disney…</p>
+                           <p class="subtitle">English Elocution</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> J4 <br>
+                              <strong>Description:</strong>Self-Composed Poem on a Disney Tale <br>
+                              <strong>Grade:</strong> 4 & 5 <br>
+                              <strong>No. of Participants:</strong> 1 <br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format <br>
+                              <strong>Duration:</strong> not to exceed 3 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> The poem should be based on any one Disney tale.
+                                 </li>
+                                 <li>The poem should be self-composed.
+                                 </li>
+                                 <li>The participants should not use more than 2 props.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Originality
+                                 </li>
+                                 <li>Clarity 
+                                 </li>
+                                 <li>Voice Modulation</li>
+                                 <li>Overall Presentation</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1238,7 +1417,7 @@
 
                <!--J5-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/J5_.JPG">
@@ -1260,7 +1439,33 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Mask Me Anything </p>
+                           <p class="subtitle">Animal Mask Making</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> J5 <br>
+                              <strong>Description:</strong>Make a Mask of your Favourite Animal Character from any Disney Tale<br>
+                              <strong>Grade:</strong> 1 - 3 <br>
+                              <strong>No. of Participants:</strong> 1 <br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
+                              <strong>Duration:</strong> not to exceed 3 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> Participants must create an animal mask using any craft material.
+                                 </li>
+                                 <li>The artwork must include a suitable title
+                                 </li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Creativity
+                                 </li>
+                                 <li>Adherence to theme
+                                 </li>
+                                 <li>Visual Impact</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1268,7 +1473,7 @@
 
                <!--J6-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/J6_.JPG">
@@ -1290,7 +1495,34 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Tidey Up! </p>
+                           <p class="subtitle">Fish Aquarium</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> J6 <br>
+                              <strong>Description:</strong>Create a model of a Fish Aquarium drawing inspiration from movies like Finding Nemo, Little Mermaid or Pirates of the Caribbean<br>
+                              <strong>Grade:</strong> 4 & 5 <br>
+                              <strong>No. of Participants:</strong> 1 <br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
+                              <strong>Duration:</strong> not to exceed 3 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> Participants must create a fish aquarium using waste products and craft material.
+                                 </li>
+                                 <li>The artwork must include a suitable title
+                                 </li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Creativity
+                                 </li>
+                                 <li>Adherence to theme
+                                 </li>
+                                 <li>Visual Impact</li>
+                                 <li>Originality</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1298,7 +1530,7 @@
 
                <!--S1-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S1_.JPG">
@@ -1320,7 +1552,34 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Blueming Bloom </p>
+                           <p class="subtitle">Miniature Garden</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S1 <br>
+                              <strong>Description:</strong>Create a small garden in a large bowl using natural plants.<br>
+                              <strong>Grade:</strong> 6 & 7 <br>
+                              <strong>No. of Participants:</strong> 1 <br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
+                              <strong>Duration:</strong> not to exceed 3 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> Participants must create a mini garden in a large bowl using natural plants, decorative objects, and garden accessories.
+                                 </li>
+                                 <li>The artwork must include a appropriate title
+                                 </li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Creativity
+                                 </li>
+                                 <li>Adherence to theme
+                                 </li>
+                                 <li>Visual Impact</li>
+                                 <li>Originality</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1328,7 +1587,7 @@
 
                <!--S2-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S2_.JPG">
@@ -1350,7 +1609,37 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Face Fantasy</p>
+                           <p class="subtitle">Face Painting</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S2 <br>
+                              <strong>Description:</strong>Face painting on the theme given.<br>
+                              <strong>Grade:</strong> 8 & 9 <br>
+                              <strong>No. of Participants:</strong>1 (+model)<br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
+                              <strong>Duration:</strong> not to exceed 5 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> Theme for the Event: Funny Halloween Characters.
+                                 </li>
+                                 <li>Participants must paint the theme on a model that could be a family member or friend.
+                                 </li>
+                                 <li>Only the Artist will be considered as a participant.</li>
+                                 <li>Any type of colours which suits best can be used.</li>
+                                 <li>The participant can also use a Make-Up Kit if needed to add finer details.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Creativity
+                                 </li>
+                                 <li>Adherence to theme
+                                 </li>
+                                 <li>Visual Impact</li>
+                                 <li>Originality</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1358,7 +1647,7 @@
 
                <!--S3-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S3_.JPG">
@@ -1380,7 +1669,35 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Fashion in my Jeans</p>
+                           <p class="subtitle">Fashion Designing</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S3 <br>
+                              <strong>Description:</strong>Modernize a traditional dress from any culture.<br>
+                              <strong>Grade:</strong> 10-12 <br>
+                              <strong>No. of Participants:</strong>1 (+model)<br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) and Images <br>
+                              <strong>Duration:</strong> not to exceed 8 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> The participant must submit their sketches and pictures of their creation.
+                                 </li>
+                                 <li>The lapse video must include the steps from preparation to presentation.
+                                 </li>
+                                 <li>Each participant must wear the created dress and the at least 3 photographs must be submitted along with the time lapse video.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                                 <li>Sustainability</li>
+                                 <li>Impact on the Audience</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Creativity
+                                 </li>
+                                 <li>Adherence to theme
+                                 </li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1388,7 +1705,7 @@
 
                <!--S4-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S4_.JPG">
@@ -1410,7 +1727,39 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Dancing through Cultures</p>
+                           <p class="subtitle">Dance</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S4 <br>
+                              <strong>Description:</strong>Dance (duet) on the given theme.<br>
+                              <strong>Grade:</strong> 7-9 <br>
+                              <strong>No. of Participants:</strong>2 (+model)<br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) and Images <br>
+                              <strong>Duration:</strong> not to exceed 4 minute <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> Theme: Intercultural (International Folk Music + Indian Dance form).
+                                 </li>
+                                 <li>It is mandatory to select only one International Folk Music and only one Indian Dance form.
+                                 </li>
+                                 <li>The participants must adhere to the theme. Non-adherence will result in disqualification.</li>
+                                 <li>Keeping the Covid protocol in mind, participants must shoot their dance videos separately and then compile them in spilt screen process to make it a duet performance.</li>
+                                 <li>Participants must submit their final edited video only.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Music 
+                                 </li>
+                                 <li>Dance Technique
+                                 </li>
+                                 <li>Synchronisation</li>
+                                 <li>Originality and Creativity </li>
+                                 <li>Variety of movements and expressions</li>
+                                 <li>Overall Presentation</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1418,7 +1767,7 @@
 
                <!--S5-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S5_.JPG">
@@ -1440,7 +1789,37 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Bach it up!</p>
+                           <p class="subtitle">Band</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S5 <br>
+                              <strong>Description:</strong>Band performance.<br>
+                              <strong>Grade:</strong> 9-12 <br>
+                              <strong>No. of Participants:</strong>maximum 6 (Musicians and Vocalists)<br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong> Video in Mp4 format (720/1080p) <br>
+                              <strong>Duration:</strong> 5 Minutes <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> Genre: Hard Rock/ Pop/ Pop-Rock
+                                 </li>
+                                 <li>The lyrics of the song should not consist of any offensive words.
+                                 </li>
+                                 <li>The participating teams will not be allowed to use any pre-recorded backing tracks.</li>
+                                 <li>The participants are free to use any kind of software for compiling their videos and recording their instruments.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Vocals, rhythm, and coordination 
+                                 </li>
+                                 <li>Video compilation and mixing
+                                 </li>
+                                 <li>Overall Presentation</li>
+                                 <li>Originality and Creativity </li>
+                                 <li>Overall Presentation</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1448,7 +1827,7 @@
 
                <!--S6-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S6_.JPG">
@@ -1470,7 +1849,35 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Bollywood Fiesta  </p>
+                           <p class="subtitle">Solo Singing</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S6 <br>
+                              <strong>Description:</strong>Solo Singing.<br>
+                              <strong>Grade:</strong> 6-8 <br>
+                              <strong>No. of Participants:</strong>1<br>
+                              <strong>Language:</strong> Hindi <br>
+                              <strong>Mode of submission:</strong>  Video in Mp4 format <br>
+                              <strong>Duration:</strong> not to exceed 4 Minutes <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li> Theme: Bollywood 
+                                 </li>
+                                 <li>The lyrics of the song should not consist of any offensive words.
+                                 </li>
+                                 <li>Pre-recorded backing tracks / Karaoke to be used.</li>
+                                 <li>Last Date of Submission: 7th August 2021.</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Rhythm and beat
+                                 </li>
+                                 <li>Selection of song and voice quality
+                                 </li>
+                                 <li>Synchronization and clarity</li>
+                                 <li>Overall Presentation</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1478,7 +1885,7 @@
 
                <!--S7-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S7_.JPG">
@@ -1500,7 +1907,37 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Silent Awareness </p>
+                           <p class="subtitle">Mime + Video Making</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S7 <br>
+                              <strong>Description:</strong>Enact a mime and record to create a video to spread awareness on any social issue with a catchline/slogan in the end.<br>
+                              <strong>Grade:</strong> 8-10 <br>
+                              <strong>No. of Participants:</strong>5 (Actors and Video Editors)<br>
+                              <strong>Language:</strong> Hindi <br>
+                              <strong>Mode of submission:</strong>Video in Mp4 Format<br>
+                              <strong>Duration:</strong> not to exceed 1 Minutes <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li>The actors in the team to enact a mime keeping the social issue they wish to portray and recorded
+                                 </li>
+                                 <li>The participants are free to use any kind of software for editing and compiling their videos.
+                                 </li>
+                                 <li>The catchline/slogan must be clearly visible in the video.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Acting
+                                 </li>
+                                 <li>Expression
+                                 </li>
+                                 <li>Storyline and its relevance to the catchline/slogan</li>
+                                 <li>Creativity and originality</li>
+                                 <li>Editing Skills</li>
+                                 <li>Overall Presentation/Impact</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1508,7 +1945,7 @@
 
                <!--S8-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S8_.JPG">
@@ -1530,7 +1967,38 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Staying Focussed </p>
+                           <p class="subtitle">Photography</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S8 <br>
+                              <strong>Description:</strong>Recreate your favourite meme using a camera and a photoshopping tool.<br>
+                              <strong>Grade:</strong> 7-9 and 10-12 <br>
+                              <strong>No. of Participants:</strong>2<br>
+                              <strong>Language:</strong> Hindi <br>
+                              <strong>Mode of submission:</strong>Images in JPEG format and Video in Mp4 format (Time lapse)<br>
+                              <strong>Duration:</strong> not to exceed 1 Minutes <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li>A team of two participants:  A Photographer from classes 7-9 and an Editor from classes 10-12.
+                                 </li>
+                                 <li>The Team must submit 3 photographs- The initial unedited photograph, Time Lapse of the Editing process and the Final Image.
+                                 </li>
+                                 <li>Photos submitted must be at least 640 pixels on the shorter side, and no more than 2000 pixels on the longer side. Images should be no larger than 2MB.</li>
+                                 <li>You are required to provide a unique title for the image submitted.</li>
+                                 <li>Photos that portray or otherwise include inappropriate and/or offensive content are strictly prohibited and will be immediately discarded.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Creativity
+                                 </li>
+                                 <li>Editing Skills
+                                 </li>
+                                 <li>Photography skills</li>
+                                 <li>Precision in idea</li>
+                                 <li>Overall Composition</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1538,7 +2006,7 @@
 
                <!--S9-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S9_.JPG">
@@ -1560,7 +2028,39 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">The Laughter Asylum</p>
+                           <p class="subtitle">Stand-Up Comedy</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S9 <br>
+                              <strong>Description:</strong>Stand-up Comedy performance<br>
+                              <strong>Grade:</strong> 10-12 <br>
+                              <strong>No. of Participants:</strong>1<br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong>Zoom(live)(Link will be shared with the school that registers 3 days prior to the event.)<br>
+                              <strong>Duration:</strong> 5 minutes <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li>Topics will be shared with the participating schools on registration to this event.
+                                 </li>
+                                 <li>Topics will be shared 10 days prior to the event.
+                                 </li>
+                                 <li>The participant must have a prepared Stand-Up Comedy on any one of the given topics</li>
+                                 <li>If the participant exceeds the time limit, then he/she will be marked negatively</li>
+                                 <li>The content of the Stand-Up Comedy must not contain any offensive or inappropriate language</li>
+                                 <li>It will be compulsory for the participant to switch ON their respective cameras otherwise their speech would not be marked.</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Content and Creativity
+                                 </li>
+                                 <li>Fluency
+                                 </li>
+                                 <li>Spontaneity</li>
+                                 <li>Sense Of Humour</li>
+                                 <li>Presentation</li>
+                                 <li>Confidence level</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1568,7 +2068,7 @@
 
                <!--S10-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S10_.JPG">
@@ -1590,7 +2090,41 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">The Jalapeño Business </p>
+                           <p class="subtitle">Food Blogging</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S10 <br>
+                              <strong>Description:</strong>Creating a Food Blog<br>
+                              <strong>Grade:</strong> 9-12 <br>
+                              <strong>No. of Participants:</strong>4<br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong>Link to the Blog<br>
+                              <strong>Duration:</strong> 5 minutes <br>
+                              <strong class="is-medium"><br>Rules and Regulations: </strong>
+                              <ul>
+                                 <li>Participants may create the blog on any site of their choice.
+                                 </li>
+                                 <li>Participants must prepare a total of 5 dishes for presentation.
+                                 </li>
+                                 <li>The Blog must include the cuisine, ingredients, method of preparation and the nutritional value of each dish.</li>
+                                 <li>Try to add images at each step of the preparation</li>
+                                 <li>The content of the Stand-Up Comedy must not contain any offensive or inappropriate language</li>
+                                 <li>Give a suitable name to the blog</li>
+                                 <li>Add a short description about the team members and their role in the Food Blog.</li>
+                                 <li>Last Date of Submission: 7th August 2021</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Blog Name
+                                 </li>
+                                 <li>Originality
+                                 </li>
+                                 <li>Uniqueness of the dishes</li>
+                                 <li>Nutritional Value of the dishes</li>
+                                 <li>Clarity on the method of cooking</li>
+                                 <li>Overall look/appeal of the blog</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1598,7 +2132,7 @@
 
                <!--S11-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S11_.JPG">
@@ -1620,7 +2154,33 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Farmvention</p>
+                              <div class="content">
+                                 <strong>Event Number:</strong> S11 <br>
+                                 <strong>Description:</strong>Problem Solving – Innovative idea<br>
+                                 <strong>Grade:</strong> 8-10<br>
+                                 <strong>No. of Participants:</strong>1<br>
+                                 <strong>Language:</strong> English <br>
+                                 <strong>Mode of submission:</strong>Video in Mp4 format<br>
+                                 <strong>Duration:</strong>not to exceed 2 Minutes <br>
+                                 <strong class="is-medium"><br>Rules and Regulations: </strong>
+                                 <ul>
+                                    <li>Participants must think of the problems that Indian farmers face and create an invention, innovation or idea to help Indian farmers.
+                                    </li>
+                                    <li>A prototype/model must be made using recycled materials to support the idea and the video showing an explanation of the design.
+                                    </li>
+                                    <li>Last Date of Submission: 7th August 2021</li>
+                                 </ul>
+                                 <strong class="is-medium">Judgement Criteria:</strong>
+                                 <ul>
+                                    <li>Creativity
+                                    </li>
+                                    <li>Benefits to Farmers
+                                    </li>
+                                    <li>Environmental Impact</li>
+                                    <li>Problem Solving Ability of the Product</li>
+                                 </ul>
+                              </div>
                         </div>
                      </section>
                   </div>
@@ -1628,7 +2188,7 @@
 
                <!--S12-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S12_.JPG">
@@ -1650,7 +2210,44 @@
                      </header>
                      <section class="modal-card-body">
                         <div class="container">
-                           
+                           <p class="title">Start-Up Trials </p>
+                           <p class="subtitle">Young Entrepreneur’s Start-Up Plan</p>
+                           <div class="content">
+                              <strong>Event Number:</strong> S 12 <br>
+                              <strong>Description:</strong>Create a plan for a Start-Up<br>
+                              <strong>Grade:</strong> 9-12 <br>
+                              <strong>No. of Participants:</strong>maximum 5<br>
+                              <strong>Language:</strong> English <br>
+                              <strong>Mode of submission:</strong>Zoom(live) (Link will be shared with the school that registers 3 days prior to the event.)<br>
+                              <strong>Duration:</strong>5 mins <br>
+                              <strong class="is-medium"><br>Rules and Regulations:</strong>
+                              <ul>
+                                 <li>The team must plan the Start-up dividing the work among themselves. However, any 2 members will be allowed to present the plan on the Final Day. This decision lies entirely on the team.
+                                 </li>
+                                 <li>The Team must plan the Start-up presuming that they have a 1 crore rupees to invest in their Start-up and they will show its use over the complete project.
+                                 </li>
+                                 <li>
+                                    The participating team must give a presentation (ppt or video) on their start-up company. The presentation must contain
+                                    <ol>
+                                       <li>Product description. </li>
+                                       <li>Media and Advertisement (Print Media Advertisement to be designed)</li>
+                                       <li>Budgeting for the financial year.</li>
+                                       <li>Strategy for the existing market competition.</li>
+                                       <li>Any other aspect they wish to highlight</li>
+                                    </ol>
+                                 </li>
+                                 <li>The team cannot use other's ideas and works (digital images, illustrations, audio clips, movies, photos, design, etc.). You are not allowed to use even copyright free or royalty free materials. You need to create them on your own. Please remember that the use of other’s creation will lead your team to disqualification.</li>
+                              </ul>
+                              <strong class="is-medium">Judgement Criteria:</strong>
+                              <ul>
+                                 <li>Creativity
+                                 </li>
+                                 <li>Finance and Production
+                                 </li>
+                                 <li>Marketing and Market Research</li>
+                                 <li>Communication</li>
+                              </ul>
+                           </div>
                         </div>
                      </section>
                   </div>
@@ -1658,7 +2255,7 @@
 
                <!--S13-->
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                  <div class="card">
+                  <div class="card" style="background-color: #42413D;">
                      <div class="card-image">
                         <figure class="image is-1by1">
                            <img src="assets/S13_.JPG">
@@ -1697,124 +2294,124 @@
                   <!--Results-->
                   <div class="column is-half box container content ml-1 mr-1 mt-1 mb-5" style="background-color: #333533 ;">
                      <h1 class="title is-3 has-text-centered" style="font-family: 'Fira Sans', sans-serif; color: #FFD100;">Spark Contest 2021 Results</h1>
-                     <hr>
+                     <hr style="background-color: dimgray;">
                      <strong>
-                        <blockquote style="color:darkred; font-family: 'Lora', serif;">*Results for Spark Contest 2021 have not yet been announced. They will be available here post-declaration on 14th August.*</blockquote>
+                        <blockquote style="color:red; font-family: 'Lora', serif; background-color: #42413D; ">*Results for Spark Contest 2021 have not yet been announced. They will be available here post-declaration on 14th August.*</blockquote>
                      </strong>
                      <br>
-                     <p style="color: #FFD100; font-family: 'Lora', serif">For queries please <a href="#contact" style="color:mediumslateblue"><u>contact us</u></a>.</p>
+                     <p style="color: #D6D6D6; font-family: 'Lora', serif">In case of any queries please <a href="#contact" style="color:#FFEE32;"><u>contact us</u></a>.</p>
                   </div>
 
                   <!--Contact Us-->
                   <div class="column is-half box container content ml-1 mr-1 mt-1 mb-5" id="contact" style="background-color: #333533 ;">
                      <h1 class="title is-3 has-text-centered" style="font-family: 'Fira Sans', sans-serif; color: #FFD100;">Contact Details</h1>
-                     <hr>
+                     <hr style="background-color: dimgray;">
                      <div class="columns">
                         <div class="column is-half">
 
                            <!--School Contacts-->
                            <strong>
-                              <p style="font-family: 'Lora', serif; color: #FFD100;"><u>School:</u></p>
+                              <p style="font-family: 'Lora', serif; color: #FFEE32;"><u>School:</u></p>
                            </strong>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>srcsdoon.dehradun@gmail</em>.com</span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>srcsdoon.dehradun@gmail</em>.com</span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>+91 89799 58111</em></span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>+91 89799 58111</em></span>
                            </span>
 
                            <!--Activity Coordinators Contacts-->
                            <strong>
-                              <p style="font-family: 'Lora', serif; color: #FFD100;"><br><u>Activity Coordinators:</u></p>
+                              <p style="font-family: 'Lora', serif; color: #FFEE32;"><br><u>Activity Coordinators:</u></p>
                            </strong>
                            <div>
-                              <p style="font-family: 'Lora', serif; color: #FFD100;">Junior Coordinator (Class 1-6)</p>
+                              <p style="font-family: 'Lora', serif; color: #D6D6D6;">Junior Coordinator (Class 1-6)</p>
                            </div>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>sharmakomal1976@gmail.com</em></span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>sharmakomal1976@gmail.com</em></span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>+91 97616 62521</em></span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>+91 97616 62521</em></span>
                            </span>
                            <div>
-                              <p style="font-family: 'Lora', serif; color: #FFD100;">Senior Coordinator (Class 7-12)</p>
+                              <p style="font-family: 'Lora', serif; color: #D6D6D6;">Senior Coordinator (Class 7-12)</p>
                            </div>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>qadr829@gmail.com</em></span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>qadr829@gmail.com</em></span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>+91 75004 87988</em></span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>+91 75004 87988</em></span>
                            </span>
                         </div>
                         <div class="column is-half">
 
                            <!--Student Council Contacts-->
                            <strong>
-                              <p style="font-family: 'Lora', serif; color: #FFD100;"><u>Student Council:</u></p>
+                              <p style="font-family: 'Lora', serif; color: #FFEE32;"><u>Student Council:</u></p>
                            </strong>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>studentcouncil.srcs@gmail.com</em></span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>studentcouncil.srcs@gmail.com</em></span>
                            </span>
 
                            <!--Event Heads Contacts-->
                            <strong>
-                              <p style="font-family: 'Lora', serif; color: #FFD100;"><br><br><u>Event Management Student Heads:</u></p>
+                              <p style="font-family: 'Lora', serif; color: #FFEE32;"><br><br><u>Event Management Student Heads:</u></p>
                            </strong>
                            <div>
-                              <p style="font-family: 'Lora', serif; color: #FFD100;">Event Head Boy</p>
+                              <p style="font-family: 'Lora', serif; color: #D6D6D6;">Event Head Boy</p>
                            </div>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>aryan.vadera21@gmail</em>.com</span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>aryan.vadera21@gmail</em>.com</span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>+91 75349 41941</em></span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>+91 75349 41941</em></span>
                            </span>
                            <div>
-                              <p style="font-family: 'Lora', serif; color: #FFD100;">Event Head Girl</p>
+                              <p style="font-family: 'Lora', serif; color: #D6D6D6;">Event Head Girl</p>
                            </div>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>ananyagoyal1619@gmail.com</em></span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>ananyagoyal1619@gmail.com</em></span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Lora', serif; color: #FFD100;"><em>+91 63988 51772</em></span>
+                           <span style="font-family: 'Lora', serif; color: #959492;"><em>+91 63988 51772</em></span>
                            </span>
                         </div>
                      </div>
-                     <hr>
-                     <p style="color: #FFD100;"><strong>Note:</strong><strong style="color: #FFD100; font-family: 'Lora', serif;"> Submission of entries for various events will only be accepted on </strong><strong style="color:lightslategray; font-family: 'Lora', serif"><span class="icon-text"><span class="icon"><i class="fas fa-envelope"></i></span><span style="font-family: 'Lora', serif"><em>srcsspark21@gmail.com</em></span></span></strong></p>
+                     <hr style="background-color: dimgray;">
+                     <p><strong style="color: #D6D6D6; font-family: 'Lora', serif;">Note:</strong><strong style="color: #959492; font-family: 'Lora', serif;"> Submission of entries for various events will only be accepted on </strong><strong style="color:lightslategray; font-family: 'Lora', serif"><span class="icon-text"><span class="icon"><i class="fas fa-envelope"></i></span><span style="font-family: 'Lora', serif"><em>srcsspark21@gmail.com</em></span></span></strong></p>
                   </div>
                </div>
             </div>
@@ -1867,679 +2464,3 @@
       </footer>
    </body>
 </html>
-
-            <!--
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Disney Fashion Show</p>
-                     <p class="subtitle">Fancy Dress Competition</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> J1 <br>
-                        <strong>Description:</strong>Dress up as your Favourite Disney Character and explain what is so special about it. <br>
-                        <strong>Grade:</strong>1 <br>
-                        <strong>No. of Participants:</strong> 1 <br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format <br>
-                        <strong>Duration:</strong> not to exceed 1 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> The participant must dress up as their Favourite Disney Character to the closest possible resemblance and record a short speech sharing his/her views on why the character is special to him/her.
-                           </li>
-                           <li>Last Date of Submission: 7th August 2021
-                           </li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Resemblance to the Disney Character
-                           </li>
-                           <li>Content and Clarity
-                           </li>
-                           <li>Presentation Style</uli>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Disney Presents…</p>
-                     <p class="subtitle">Ad Bag</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> J2 <br>
-                        <strong>Description:</strong>Advertise your favourite product from The Disney World. (Like Snow White’s apple or Cinderella’s shoe, etc.) <br>
-                        <strong>Grade:</strong>2 <br>
-                        <strong>No. of Participants:</strong> 1 <br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format <br>
-                        <strong>Duration:</strong> not to exceed 1 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> The participant is free to use relevant props.
-                           </li>
-                           <li>The participant must dress up appropriately.
-                           </li>
-                           <li>No editing or use of filters will be accepted.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Content
-                           </li>
-                           <li>Creativity 
-                           </li>
-                           <li>Adherence to the theme</li>
-                           <li>Appeal of the Advertisement</li>
-                           <li>Overall Presentation</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Once Upon a Change</p>
-                     <p class="subtitle">Story telling with a Twist</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> J3 <br>
-                        <strong>Description:</strong>Tell a Disney Story by changing the known end with a self-composed new twist. <br>
-                        <strong>Grade:</strong> 3 <br>
-                        <strong>No. of Participants:</strong> 1 <br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format <br>
-                        <strong>Duration:</strong> not to exceed 2 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li>Only one participant from each school.
-                           </li>
-                           <li>The Participant must choose a short Disney tale.
-                           </li>
-                           <li>The participant should change the end of the story using their creativity and imagination.</li>
-                           <li>The participant must wear a costume to enhance the overall effect of the recitation.</li>
-                           <li>Adding filters and sounds to the video is allowed.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Creativity
-                           </li>
-                           <li>Clarity and Fluency 
-                           </li>
-                           <li>Expressions and Intonation</li>
-                           <li>Appeal of the Advertisement</li>
-                           <li>Overall Presentation</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">If I fell into the World of Disney…</p>
-                     <p class="subtitle">English Elocution</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> J4 <br>
-                        <strong>Description:</strong>Self-Composed Poem on a Disney Tale <br>
-                        <strong>Grade:</strong> 4 & 5 <br>
-                        <strong>No. of Participants:</strong> 1 <br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format <br>
-                        <strong>Duration:</strong> not to exceed 3 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> The poem should be based on any one Disney tale.
-                           </li>
-                           <li>The poem should be self-composed.
-                           </li>
-                           <li>The participants should not use more than 2 props.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Originality
-                           </li>
-                           <li>Clarity 
-                           </li>
-                           <li>Voice Modulation</li>
-                           <li>Overall Presentation</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-            </div>
-            <div class=" is-ancestor">
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Mask Me Anything </p>
-                     <p class="subtitle">Animal Mask Making</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> J5 <br>
-                        <strong>Description:</strong>Make a Mask of your Favourite Animal Character from any Disney Tale<br>
-                        <strong>Grade:</strong> 1 - 3 <br>
-                        <strong>No. of Participants:</strong> 1 <br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
-                        <strong>Duration:</strong> not to exceed 3 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> Participants must create an animal mask using any craft material.
-                           </li>
-                           <li>The artwork must include a suitable title
-                           </li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Creativity
-                           </li>
-                           <li>Adherence to theme
-                           </li>
-                           <li>Visual Impact</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Tidey Up! </p>
-                     <p class="subtitle">Fish Aquarium</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> J6 <br>
-                        <strong>Description:</strong>Create a model of a Fish Aquarium drawing inspiration from movies like Finding Nemo, Little Mermaid or Pirates of the Caribbean<br>
-                        <strong>Grade:</strong> 4 & 5 <br>
-                        <strong>No. of Participants:</strong> 1 <br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
-                        <strong>Duration:</strong> not to exceed 3 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> Participants must create a fish aquarium using waste products and craft material.
-                           </li>
-                           <li>The artwork must include a suitable title
-                           </li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Creativity
-                           </li>
-                           <li>Adherence to theme
-                           </li>
-                           <li>Visual Impact</li>
-                           <li>Originality</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Blueming Bloom </p>
-                     <p class="subtitle">Miniature Garden</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S1 <br>
-                        <strong>Description:</strong>Create a small garden in a large bowl using natural plants.<br>
-                        <strong>Grade:</strong> 6 & 7 <br>
-                        <strong>No. of Participants:</strong> 1 <br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
-                        <strong>Duration:</strong> not to exceed 3 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> Participants must create a mini garden in a large bowl using natural plants, decorative objects, and garden accessories.
-                           </li>
-                           <li>The artwork must include a appropriate title
-                           </li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Creativity
-                           </li>
-                           <li>Adherence to theme
-                           </li>
-                           <li>Visual Impact</li>
-                           <li>Originality</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Face Fantasy</p>
-                     <p class="subtitle">Face Painting</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S2 <br>
-                        <strong>Description:</strong>Face painting on the theme given.<br>
-                        <strong>Grade:</strong> 8 & 9 <br>
-                        <strong>No. of Participants:</strong>1 (+model)<br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) <br>
-                        <strong>Duration:</strong> not to exceed 5 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> Theme for the Event: Funny Halloween Characters.
-                           </li>
-                           <li>Participants must paint the theme on a model that could be a family member or friend.
-                           </li>
-                           <li>Only the Artist will be considered as a participant.</li>
-                           <li>Any type of colours which suits best can be used.</li>
-                           <li>The participant can also use a Make-Up Kit if needed to add finer details.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Creativity
-                           </li>
-                           <li>Adherence to theme
-                           </li>
-                           <li>Visual Impact</li>
-                           <li>Originality</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Fashion in my Jeans</p>
-                     <p class="subtitle">Fashion Designing</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S3 <br>
-                        <strong>Description:</strong>Modernize a traditional dress from any culture.<br>
-                        <strong>Grade:</strong> 10-12 <br>
-                        <strong>No. of Participants:</strong>1 (+model)<br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) and Images <br>
-                        <strong>Duration:</strong> not to exceed 8 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> The participant must submit their sketches and pictures of their creation.
-                           </li>
-                           <li>The lapse video must include the steps from preparation to presentation.
-                           </li>
-                           <li>Each participant must wear the created dress and the at least 3 photographs must be submitted along with the time lapse video.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                           <li>Sustainability</li>
-                           <li>Impact on the Audience</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Creativity
-                           </li>
-                           <li>Adherence to theme
-                           </li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Dancing through Cultures</p>
-                     <p class="subtitle">Dance</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S4 <br>
-                        <strong>Description:</strong>Dance (duet) on the given theme.<br>
-                        <strong>Grade:</strong> 7-9 <br>
-                        <strong>No. of Participants:</strong>2 (+model)<br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in MP4 format (Time Lapse) and Images <br>
-                        <strong>Duration:</strong> not to exceed 4 minute <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> Theme: Intercultural (International Folk Music + Indian Dance form).
-                           </li>
-                           <li>It is mandatory to select only one International Folk Music and only one Indian Dance form.
-                           </li>
-                           <li>The participants must adhere to the theme. Non-adherence will result in disqualification.</li>
-                           <li>Keeping the Covid protocol in mind, participants must shoot their dance videos separately and then compile them in spilt screen process to make it a duet performance.</li>
-                           <li>Participants must submit their final edited video only.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Music 
-                           </li>
-                           <li>Dance Technique
-                           </li>
-                           <li>Synchronisation</li>
-                           <li>Originality and Creativity </li>
-                           <li>Variety of movements and expressions</li>
-                           <li>Overall Presentation</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Bach it up!</p>
-                     <p class="subtitle">Band</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S5 <br>
-                        <strong>Description:</strong>Band performance.<br>
-                        <strong>Grade:</strong> 9-12 <br>
-                        <strong>No. of Participants:</strong>maximum 6 (Musicians and Vocalists)<br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong> Video in Mp4 format (720/1080p) <br>
-                        <strong>Duration:</strong> 5 Minutes <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> Genre: Hard Rock/ Pop/ Pop-Rock
-                           </li>
-                           <li>The lyrics of the song should not consist of any offensive words.
-                           </li>
-                           <li>The participating teams will not be allowed to use any pre-recorded backing tracks.</li>
-                           <li>The participants are free to use any kind of software for compiling their videos and recording their instruments.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Vocals, rhythm, and coordination 
-                           </li>
-                           <li>Video compilation and mixing
-                           </li>
-                           <li>Overall Presentation</li>
-                           <li>Originality and Creativity </li>
-                           <li>Overall Presentation</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Bollywood Fiesta  </p>
-                     <p class="subtitle">Solo Singing</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S6 <br>
-                        <strong>Description:</strong>Solo Singing.<br>
-                        <strong>Grade:</strong> 6-8 <br>
-                        <strong>No. of Participants:</strong>1<br>
-                        <strong>Language:</strong> Hindi <br>
-                        <strong>Mode of submission:</strong>  Video in Mp4 format <br>
-                        <strong>Duration:</strong> not to exceed 4 Minutes <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li> Theme: Bollywood 
-                           </li>
-                           <li>The lyrics of the song should not consist of any offensive words.
-                           </li>
-                           <li>Pre-recorded backing tracks / Karaoke to be used.</li>
-                           <li>Last Date of Submission: 7th August 2021.</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Rhythm and beat
-                           </li>
-                           <li>Selection of song and voice quality
-                           </li>
-                           <li>Synchronization and clarity</li>
-                           <li>Overall Presentation</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Silent Awareness </p>
-                     <p class="subtitle">Mime + Video Making</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S7 <br>
-                        <strong>Description:</strong>Enact a mime and record to create a video to spread awareness on any social issue with a catchline/slogan in the end.<br>
-                        <strong>Grade:</strong> 8-10 <br>
-                        <strong>No. of Participants:</strong>5 (Actors and Video Editors)<br>
-                        <strong>Language:</strong> Hindi <br>
-                        <strong>Mode of submission:</strong>Video in Mp4 Format<br>
-                        <strong>Duration:</strong> not to exceed 1 Minutes <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li>The actors in the team to enact a mime keeping the social issue they wish to portray and recorded
-                           </li>
-                           <li>The participants are free to use any kind of software for editing and compiling their videos.
-                           </li>
-                           <li>The catchline/slogan must be clearly visible in the video.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Acting
-                           </li>
-                           <li>Expression
-                           </li>
-                           <li>Storyline and its relevance to the catchline/slogan</li>
-                           <li>Creativity and originality</li>
-                           <li>Editing Skills</li>
-                           <li>Overall Presentation/Impact</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Staying Focussed </p>
-                     <p class="subtitle">Photography</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S8 <br>
-                        <strong>Description:</strong>Recreate your favourite meme using a camera and a photoshopping tool.<br>
-                        <strong>Grade:</strong> 7-9 and 10-12 <br>
-                        <strong>No. of Participants:</strong>2<br>
-                        <strong>Language:</strong> Hindi <br>
-                        <strong>Mode of submission:</strong>Images in JPEG format and Video in Mp4 format (Time lapse)<br>
-                        <strong>Duration:</strong> not to exceed 1 Minutes <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li>A team of two participants:  A Photographer from classes 7-9 and an Editor from classes 10-12.
-                           </li>
-                           <li>The Team must submit 3 photographs- The initial unedited photograph, Time Lapse of the Editing process and the Final Image.
-                           </li>
-                           <li>Photos submitted must be at least 640 pixels on the shorter side, and no more than 2000 pixels on the longer side. Images should be no larger than 2MB.</li>
-                           <li>You are required to provide a unique title for the image submitted.</li>
-                           <li>Photos that portray or otherwise include inappropriate and/or offensive content are strictly prohibited and will be immediately discarded.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Creativity
-                           </li>
-                           <li>Editing Skills
-                           </li>
-                           <li>Photography skills</li>
-                           <li>Precision in idea</li>
-                           <li>Overall Composition</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">The Laughter Asylum</p>
-                     <p class="subtitle">Stand-Up Comedy</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S9 <br>
-                        <strong>Description:</strong>Stand-up Comedy performance<br>
-                        <strong>Grade:</strong> 10-12 <br>
-                        <strong>No. of Participants:</strong>1<br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong>Zoom(live)(Link will be shared with the school that registers 3 days prior to the event.)<br>
-                        <strong>Duration:</strong> 5 minutes <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li>Topics will be shared with the participating schools on registration to this event.
-                           </li>
-                           <li>Topics will be shared 10 days prior to the event.
-                           </li>
-                           <li>The participant must have a prepared Stand-Up Comedy on any one of the given topics</li>
-                           <li>If the participant exceeds the time limit, then he/she will be marked negatively</li>
-                           <li>The content of the Stand-Up Comedy must not contain any offensive or inappropriate language</li>
-                           <li>It will be compulsory for the participant to switch ON their respective cameras otherwise their speech would not be marked.</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Content and Creativity
-                           </li>
-                           <li>Fluency
-                           </li>
-                           <li>Spontaneity</li>
-                           <li>Sense Of Humour</li>
-                           <li>Presentation</li>
-                           <li>Confidence level</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">The Jalapeño Business </p>
-                     <p class="subtitle">Food Blogging</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S10 <br>
-                        <strong>Description:</strong>Creating a Food Blog<br>
-                        <strong>Grade:</strong> 9-12 <br>
-                        <strong>No. of Participants:</strong>4<br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong>Link to the Blog<br>
-                        <strong>Duration:</strong> 5 minutes <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li>Participants may create the blog on any site of their choice.
-                           </li>
-                           <li>Participants must prepare a total of 5 dishes for presentation.
-                           </li>
-                           <li>The Blog must include the cuisine, ingredients, method of preparation and the nutritional value of each dish.</li>
-                           <li>Try to add images at each step of the preparation</li>
-                           <li>The content of the Stand-Up Comedy must not contain any offensive or inappropriate language</li>
-                           <li>Give a suitable name to the blog</li>
-                           <li>Add a short description about the team members and their role in the Food Blog.</li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Blog Name
-                           </li>
-                           <li>Originality
-                           </li>
-                           <li>Uniqueness of the dishes</li>
-                           <li>Nutritional Value of the dishes</li>
-                           <li>Clarity on the method of cooking</li>
-                           <li>Overall look/appeal of the blog</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Farmvention</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S11 <br>
-                        <strong>Description:</strong>Problem Solving – Innovative idea<br>
-                        <strong>Grade:</strong> 8-10<br>
-                        <strong>No. of Participants:</strong>1<br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong>Video in Mp4 format<br>
-                        <strong>Duration:</strong>not to exceed 2 Minutes <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li>Participants must think of the problems that Indian farmers face and create an invention, innovation or idea to help Indian farmers.
-                           </li>
-                           <li>A prototype/model must be made using recycled materials to support the idea and the video showing an explanation of the design.
-                           </li>
-                           <li>Last Date of Submission: 7th August 2021</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Creativity
-                           </li>
-                           <li>Benefits to Farmers
-                           </li>
-                           <li>Environmental Impact</li>
-                           <li>Problem Solving Ability of the Product</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div>
-            <div class=" is-ancestor">
-               <div class="column">
-                  <article class=" is-child notification is-danger">
-                     <p class="title">Start- Up Trials </p>
-                     <p class="subtitle">Young Entrepreneur’s Start-Up Plan</p>
-                     <div class="content">
-                        <strong>Event Number:</strong> S 12 <br>
-                        <strong>Description:</strong>Create a plan for a Start-Up<br>
-                        <strong>Grade:</strong> 9-12 <br>
-                        <strong>No. of Participants:</strong>maximum 5<br>
-                        <strong>Language:</strong> English <br>
-                        <strong>Mode of submission:</strong>Zoom(live) (Link will be shared with the school that registers 3 days prior to the event.)<br>
-                        <strong>Duration:</strong>5 mins <br>
-                        <h4>Rules and Regulations: </h4>
-                        <ul>
-                           <li>The team must plan the Start-up dividing the work among themselves. However, any 2 members will be allowed to present the plan on the Final Day. This decision lies entirely on the team.
-                           </li>
-                           <li>The Team must plan the Start-up presuming that they have a 1 crore rupees to invest in their Start-up and they will show its use over the complete project.
-                           </li>
-                           <li>
-                              The participating team must give a presentation (ppt or video) on their start-up company. The presentation must contain
-                              <ol>
-                                 <li>Product description. </li>
-                                 <li>Media and Advertisement (Print Media Advertisement to be designed)</li>
-                                 <li>Budgeting for the financial year.</li>
-                                 <li>Strategy for the existing market competition.</li>
-                                 <li>Any other aspect they wish to highlight</li>
-                              </ol>
-                           </li>
-                           <li>The team cannot use other's ideas and works (digital images, illustrations, audio clips, movies, photos, design, etc.). You are not allowed to use even copyright free or royalty free materials. You need to create them on your own. Please remember that the use of other’s creation will lead your team to disqualification.</li>
-                        </ul>
-                        <h4>Judgement Criteria:</h4>
-                        <ul>
-                           <li>Creativity
-                           </li>
-                           <li>Finance and Production
-                           </li>
-                           <li>Marketing and Market Research</li>
-                           <li>Communication</li>
-                        </ul>
-                        <strong>In case of queries, please contact:</strong>
-                     </div>
-                  </article>
-               </div>
-            </div> 
-            -->
