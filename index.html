@@ -5,10 +5,8 @@
       <link rel="stylesheet" type="text/css" href="css/styles.css">
       <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
       <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-      <link rel="stylesheet" type="text/css" href="css/bootstrap-iso.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
       <link href="css/all.css" rel="stylesheet">
-      <script src="js/bootstrap.bundle.min.js"></script>
       <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
       <script defer src="js/all.js"></script>
       <script src="js/index.js"></script>
@@ -85,12 +83,12 @@
       <main>
 
          <!--POPUP REGISTRATION FORM-->
-         <div class="modal" id="mds">
-            <div class="modal-background" id="mdback"></div>
+         <div class="modal" id="Rmd">
+            <div class="modal-background" id="Rmdbg"></div>
             <div class="modal-card">
                <header class="modal-card-head">
                   <p class="modal-card-title">School Registration Form</p>
-                  <button class="delete" id="mdclose" aria-label="close"></button>
+                  <button class="delete" id="Rmdclose" aria-label="close"></button>
                </header>
                <section class="modal-card-body">
                   <form name="Register" data-netlify-recaptcha="true" data-netlify="true">
@@ -285,7 +283,7 @@
                </section>
                <footer class="modal-card-foot">
                   <button class="button is-success">Submit</button>
-                  <div id="mdcancel"><button class="button is-danger is-outlined">Cancel</button></div>
+                  <div id="Rmdcancel"><button class="button is-danger is-outlined">Cancel</button></div>
                </footer>
             </div>
          </div>
@@ -390,72 +388,579 @@
          <!--EVENTS-->
          <hr id="events"><br>
          <h1 class="title is-3 has-text-centered">Events</h1>
-         <div class="bootstrap-iso">
-            <section class=" gallery min-vh-100">
-               <div class="container-lg">
-                  <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
-                     <div class="col">
-                        <img src="assets/J1.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/J2.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/J3.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/J4.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/J5.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/J6.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S1.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S2.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S3.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S4.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S5.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S6.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S7.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S8.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S9.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S10.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S11.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S12.JPG" class="gallery-item" alt="gallery">
-                     </div>
-                     <div class="col">
-                        <img src="assets/S13.JPG" class="gallery-item" alt="gallery">
-                     </div>
+         <div class="columns is-multiline box ml-4 mr-4 is-mobile">
+
+            <!--J1-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/J1.JPG">
+                     </figure>
                   </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="J1">
+                        <u><a><strong>J1</strong></a></u>
+                     </div>
+                  </footer>
                </div>
-               <hr>
-            </section>
+            </div>
+            <div class="modal" id="J1md">
+               <div class="modal-background" id="J1bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">J1- Disney Fashion Show</p>
+                     <button class="delete" id="J1close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--J2-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/J2.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="J2">
+                        <u><a><strong>J2</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="J2md">
+               <div class="modal-background" id="J2bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">J2- Disney Fashion Show</p>
+                     <button class="delete" id="J2close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--J3-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/J3.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="J3">
+                        <u><a><strong>J3</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="J3md">
+               <div class="modal-background" id="J3bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">J3- Disney Fashion Show</p>
+                     <button class="delete" id="J3close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--J4-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/J4.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="J4">
+                        <u><a><strong>J4</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="J4md">
+               <div class="modal-background" id="J4bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">J4- Disney Fashion Show</p>
+                     <button class="delete" id="J4close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--J5-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/J5.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="J5">
+                        <u><a><strong>J5</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="J5md">
+               <div class="modal-background" id="J5bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">J5- Disney Fashion Show</p>
+                     <button class="delete" id="J5close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--J6-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/J6.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="J6">
+                        <u><a><strong>J6</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="J6md">
+               <div class="modal-background" id="J6bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">J6- Disney Fashion Show</p>
+                     <button class="delete" id="J6close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S1-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S1.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S1">
+                        <u><a><strong>S1</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S1md">
+               <div class="modal-background" id="S1bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S1- Disney Fashion Show</p>
+                     <button class="delete" id="S1close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S2-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S2.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S2">
+                        <u><a><strong>S2</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S2md">
+               <div class="modal-background" id="S2bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S2- Disney Fashion Show</p>
+                     <button class="delete" id="S2close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S3-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S3.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S3">
+                        <u><a><strong>S3</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S3md">
+               <div class="modal-background" id="S3bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S3- Disney Fashion Show</p>
+                     <button class="delete" id="S3close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S4-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S4.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S4">
+                        <u><a><strong>S4</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S4md">
+               <div class="modal-background" id="S4bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S4- Disney Fashion Show</p>
+                     <button class="delete" id="S4close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S5-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S5.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S5">
+                        <u><a><strong>S5</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S5md">
+               <div class="modal-background" id="S5bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S5- Disney Fashion Show</p>
+                     <button class="delete" id="S5close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S6-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S6.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S6">
+                        <u><a><strong>S6</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S6md">
+               <div class="modal-background" id="S6bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S6- Disney Fashion Show</p>
+                     <button class="delete" id="S6close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S7-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S7.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S7">
+                        <u><a><strong>S7</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S7md">
+               <div class="modal-background" id="S7bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S7- Disney Fashion Show</p>
+                     <button class="delete" id="S7close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S8-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S8.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S8">
+                        <u><a><strong>S8</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S8md">
+               <div class="modal-background" id="S8bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S8- Disney Fashion Show</p>
+                     <button class="delete" id="S8close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S9-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S9.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S9">
+                        <u><a><strong>S9</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S9md">
+               <div class="modal-background" id="S9bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S9- Disney Fashion Show</p>
+                     <button class="delete" id="S9close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S10-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S10.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S10">
+                        <u><a><strong>S10</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S10md">
+               <div class="modal-background" id="S10bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S10- Disney Fashion Show</p>
+                     <button class="delete" id="S10close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S11-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S11.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S11">
+                        <u><a><strong>S11</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S11md">
+               <div class="modal-background" id="S11bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S11- Disney Fashion Show</p>
+                     <button class="delete" id="S11close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S12-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S12.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S12">
+                        <u><a><strong>S12</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S12md">
+               <div class="modal-background" id="S12bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S12- Disney Fashion Show</p>
+                     <button class="delete" id="S12close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
+
+            <!--S13-->
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+               <div class="card">
+                  <div class="card-image">
+                     <figure class="image is-3by2">
+                        <img src="assets/S13.JPG">
+                     </figure>
+                  </div>
+                  <footer class="card-footer">
+                     <div class="card-footer-item" id="S13">
+                        <u><a><strong>S13</strong></a></u>
+                     </div>
+                  </footer>
+               </div>
+            </div>
+            <div class="modal" id="S13md">
+               <div class="modal-background" id="S13bg"></div>
+               <div class="modal-card">
+                  <header class="modal-card-head">
+                     <p class="modal-card-title">S13- Disney Fashion Show</p>
+                     <button class="delete" id="S13close" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                     <div class="container">
+                        
+                     </div>
+                  </section>
+               </div>
+            </div>
          </div>
+
 
          <!--RESULTS AND CONTACT US-->
          <section class="section is-medium" id="results">
