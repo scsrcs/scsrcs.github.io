@@ -16,10 +16,10 @@ and (min-device-width : 321px)
 and (max-device-width : 768px) {
   #cartext {
     position: relative;
-    bottom: 150px;
+    bottom: 750px;
   }
   #welc {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -51,7 +51,8 @@ and (min-width : 1824px) {
 }
 
 
-.body {
+
+body {
   background: assets/srcsbanner.jpg no-repeat;
   /* Keep the inherited background full size. */
   background-attachment: fixed; 
@@ -63,8 +64,8 @@ and (min-width : 1824px) {
 }
 
 .car {
-  width: 30rem;
-  height: 20rem;
+  width: 5rem;
+  height: 2rem;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
   border-radius: 5px;
   position: relative;
