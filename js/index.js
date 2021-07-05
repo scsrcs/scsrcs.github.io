@@ -2,12 +2,17 @@ document.addEventListener('DOMContentLoaded', () => {
   
   //Register Popup
   const registerButton = document.getElementById("Register");
+  const registerButton2 = document.getElementById("Register2");
   const Rmodal = document.getElementById("Rmd");
   const RmodalBg = document.getElementById("Rmdbg");
   const RmodalClose = document.getElementById("Rmdclose");
   const RmodalCancel = document.getElementById("Rmdcancel");
 
   registerButton.addEventListener('click', () => 
+  {
+    Rmodal.classList.add("is-active");
+  });
+  registerButton2.addEventListener('click', () => 
   {
     Rmodal.classList.add("is-active");
   });

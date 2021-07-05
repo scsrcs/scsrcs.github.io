@@ -7,7 +7,7 @@
       <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
       <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-      <link href="css/all.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/all.css">
       <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
       <script defer src="js/all.js"></script>
       <script src="js/index.js"></script>
@@ -17,7 +17,6 @@
       <style>
          @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
          @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
-
       </style>
    </head>
    <body class="has-navbar-fixed-top">
@@ -87,6 +86,7 @@
          </nav>
       </header>
       <main>
+
          <!--POPUP REGISTRATION FORM-->
          <div class="modal" id="Rmd">
             <div class="modal-background" id="Rmdbg"></div>
@@ -148,7 +148,7 @@
                         <div class="field-body">
                            <div class="field">
                               <p class="control is-expanded has-icons-left">
-                                 <input class="input" type="text" placeholder="First Teacher's Name">
+                                 <input class="input" type="text" placeholder="Teacher(1) Name">
                                  <span class="icon is-small is-left">
                                  <i class="fas fa-user"></i>
                                  </span>
@@ -162,7 +162,7 @@
                            <div class="field is-expanded">
                               <div class="field">
                                  <p class="control is-expanded has-icons-left">
-                                    <input class="input" type="tel" placeholder="Teacher's Phone No.">
+                                    <input class="input" type="tel" placeholder="Teacher(1) Phone No.">
                                     <span class="icon is-small is-left">
                                     <i class="fas fa-phone"></i>
                                     </span>
@@ -172,7 +172,7 @@
                            </div>
                            <div class="field">
                               <p class="control is-expanded has-icons-left">
-                                 <input class="input" type="email" placeholder="Teacher's E-mail">
+                                 <input class="input" type="email" placeholder="Teacher(1) E-mail">
                                  <span class="icon is-small is-left">
                                  <i class="fas fa-envelope"></i>
                                  </span>
@@ -188,7 +188,7 @@
                         <div class="field-body">
                            <div class="field">
                               <p class="control is-expanded has-icons-left">
-                                 <input class="input" type="text" placeholder="Second Teacher's Name">
+                                 <input class="input" type="text" placeholder="Teacher(2) Name">
                                  <span class="icon is-small is-left">
                                  <i class="fas fa-user"></i>
                                  </span>
@@ -202,7 +202,7 @@
                            <div class="field is-expanded">
                               <div class="field">
                                  <p class="control is-expanded has-icons-left">
-                                    <input class="input" type="tel" placeholder="Teacher's Phone No.">
+                                    <input class="input" type="tel" placeholder="Teacher(2) Phone No.">
                                     <span class="icon is-small is-left">
                                     <i class="fas fa-phone"></i>
                                     </span>
@@ -212,7 +212,7 @@
                            </div>
                            <div class="field">
                               <p class="control is-expanded has-icons-left">
-                                 <input class="input" type="email" placeholder="Teacher's E-mail">
+                                 <input class="input" type="email" placeholder="Teacher(2) E-mail">
                                  <span class="icon is-small is-left">
                                  <i class="fas fa-envelope"></i>
                                  </span>
@@ -226,6 +226,8 @@
                      <div class="label is-large has-text-centered">
                         <p class="">Events</p>
                      </div><br>
+
+                     <!--J1-->
                      <div class="box">
                         <p class="label is-medium">
                            <strong>J1- Disney Fashion Show</strong>
@@ -251,30 +253,6 @@
                                     <input class="input" type="text" placeholder="Participant Name">
                                     <span class="icon is-small is-left">
                                     <i class="fa fa-user"></i>
-                                    </span>
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="field is-horizontal">
-                           <div class="field-label"></div>
-                           <div class="field-body">
-                              <div class="field is-expanded">
-                                 <div class="field">
-                                    <p class="control is-expanded has-icons-left">
-                                       <input class="input" type="tel" placeholder="Participant Phone No.">
-                                       <span class="icon is-small is-left">
-                                       <i class="fas fa-phone"></i>
-                                       </span>
-                                    </p>
-                                 </div>
-                                 <p class="help" style="color: dimgray;">Do not enter the first zero</p>
-                              </div>
-                              <div class="field">
-                                 <p class="control is-expanded has-icons-left">
-                                    <input class="input" type="email" placeholder="Participant E-mail">
-                                    <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
                                     </span>
                                  </p>
                               </div>
@@ -308,12 +286,8 @@
                      <li id="welc" style="font-family: 'Fira Sans', sans-serif;">7th August, 2021- Spark Contest Phase 1 (Submission of Videos, Audios and Photographs)</li>
                      <li id="welc" style="font-family: 'Fira Sans', sans-serif;">13th August, 2021- Spark Contest Phase 2 (Online Competitions)</li>
                      <li id="welc" style="font-family: 'Fira Sans', sans-serif;">14th August, 2021- Spark Contest Phase 3 (Declaration of Results)</li>
+                     <li><strong><a class="button is-danger" id="Register2">Register</a></strong></li>
                   </ul>
-                  <div class="buttons" id="Register">
-                     <a class="button is-danger">
-                     <strong>Register</strong>
-                     </a>
-                  </div>
                </div>
             </div>
          </section>
@@ -366,7 +340,7 @@
                      <hr>
                      <strong>
                         <p class="has-text-centered" style="color:dimgrey; font-family: 'Lora', serif;">
-                           "Every child has a spark. SRCS Spark contest offers the challenge to tap it!"
+                           <u>"Every child has a spark. SRCS Spark contest offers the challenge to tap it!"</u>
                         </p>
                      </strong>
                      <p style="font-family: 'Lora', serif;">
@@ -399,9 +373,26 @@
          <hr id="events"><br>
          <div class="box container">
             <h1 class="title is-3 has-text-centered" style="font-family: 'Fira Sans', sans-serif;">Events</h1>
-            <p style="font-family: 'Lora', serif;">
-               <strong>A preview of the events you can participate in at SRCS, Spark Contest 2021.</strong>
-            </p>
+            <div class="content">
+               <blockquote style="font-family: 'Lora', serif;">
+                  <u><strong>General Guidelines for Spark 2021:</strong></u>
+                  <ul>
+                     <li>All events will be conducted virtually</li>
+                     <li>Participants must register through the <strong style="color:indianred;">Spark Contest 2021 Website Registration link latest by 23<sup>rd</sup> July, 2021.</strong></li>
+                     <li>There is no entry fee for the competition</li>
+                     <li>The participants are requested to submit their entries (videos, audios, photographs) as per the date and time given for each event. <strong style="color:indianred;">Failing to meet the deadline will result in disqualification.</strong></li>
+                     <li>The submissions/file names must include the event number, name of the participant and the school.</li>
+                     <li>All submissions must be made in the following format:<br><strong>Video: </strong><strong style="color:lightslategray;">.mp4</strong><br>
+                        [<em>Video quality - 720p. Screen size - 16:9 (landscape/ full screen). File size (per performance) must not exceed more than 200MB and therefore needs to be accordingly reduced through an editing software.</em>]<br><strong>Audio: </strong><strong style="color:lightslategray;">.mp3</strong><br><strong>Photographs: </strong><strong style="color:lightslategray;">.jpeg</strong></li>
+                     <li>The mode of submission should be any one of the following: <u>One Drive</u>, <u>Google Drive</u> or <u>We transfer</u>. All submission links must be collated and sent together to the host school only once in a single email to: <strong style="color:lightslategray; font-family: 'Lora', serif"><span class="icon-text"><span class="icon"><i class="fas fa-envelope"></i></span><span style="font-family: 'Lora', serif"><em>srcsspark21@gmail.com</em></span></span></strong></p></li>
+                     <li>Dress code for Online events scheduled for <em>13<sup>th</sup> August 2021:</em> <u>School Formals</u></li>
+                     <li>The Result will be published on the Spark Contest 2021 Website on <em>14<sup>th</sup> August 2021.</em></li>
+                     <li>Position Holders will be conferred with e-certificates.</li>
+                     <li>The decision of the judges will be final and binding.</li>
+                     <li><strong>The host school will not be held responsible for any technical difficulties that might arise at the participant’s end during online zoom events.</strong></li>
+                  </ul>
+               </blockquote>
+            </div>
             <p style="font-family: 'Lora', serif;">
                <strong>Download a detailed list of all events: </strong><a class="button is-small is-warning is-rounded">Download</a>
             </p><br>
@@ -411,8 +402,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/J1.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/J1_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -430,7 +421,7 @@
                         <button class="delete" id="J1close" aria-label="close"></button>
                      </header>
                      <section class="modal-card-body">
-                        <div class="container">
+                        <div class="content">
                            
                         </div>
                      </section>
@@ -441,8 +432,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/J2.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/J2_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -471,8 +462,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/J3.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/J3_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -501,8 +492,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/J4.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/J4_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -531,8 +522,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/J5.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/J5_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -561,8 +552,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/J6.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/J6_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -591,8 +582,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S1.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S1_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -621,8 +612,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S2.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S2_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -651,8 +642,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S3.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S3_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -681,8 +672,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S4.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S4_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -711,8 +702,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S5.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S5_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -741,8 +732,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S6.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S6_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -771,8 +762,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S7.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S7_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -801,8 +792,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S8.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S8_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -831,8 +822,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S9.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S9_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -861,8 +852,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S10.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S10_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -891,8 +882,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S11.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S11_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -921,8 +912,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S12.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S12_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -951,8 +942,8 @@
                <div class="column is-2-desktop is-3-tablet is-4-mobile">
                   <div class="card">
                      <div class="card-image">
-                        <figure class="image is-3by2">
-                           <img src="assets/S13.JPG">
+                        <figure class="image is-1by1">
+                           <img src="assets/S13_.JPG">
                         </figure>
                      </div>
                      <footer class="card-footer">
@@ -990,10 +981,10 @@
                      <h1 class="title is-3 has-text-centered" style="font-family: 'Fira Sans', sans-serif;">Spark Contest 2021 Results</h1>
                      <hr>
                      <strong>
-                        <p style="color:darkred; font-family: 'Lora', serif;">*Results for Spark Contest 2021 have not yet been announced*</p>
+                        <blockquote style="color:darkred; font-family: 'Lora', serif;">*Results for Spark Contest 2021 have not yet been announced. They will be available here post-declaration on 14th August.*</blockquote>
                      </strong>
                      <br>
-                     <p style="color:dimgray; font-family: 'Merriweather', serif">For queries please <a href="#contact" style="color:mediumslateblue">contact</a> the school or the event-specific incharges.</p>
+                     <p style="color:dimgray; font-family: 'Lora', serif">For queries please <a href="#contact" style="color:mediumslateblue"><u>contact us</u></a>.</p>
                   </div>
 
                   <!--Contact Us-->
@@ -1005,97 +996,107 @@
 
                            <!--School Contacts-->
                            <strong>
-                              <p style="font-family: 'Merriweather', serif">School:</p>
+                              <p style="font-family: 'Lora', serif"><u>School:</u></p>
                            </strong>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">srcsdoon.dehradun@gmail.com</span>
+                           <span style="font-family: 'Lora', serif"><em>srcsdoon.dehradun@gmail</em>.com</span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">+91 89799 58111</span>
+                           <span style="font-family: 'Lora', serif"><em>+91 89799 58111</em></span>
                            </span>
 
                            <!--Activity Coordinators Contacts-->
                            <strong>
-                              <p style="font-family: 'Merriweather', serif"><br>Activity Coordinators:</p>
+                              <p style="font-family: 'Lora', serif"><br><u>Activity Coordinators:</u></p>
                            </strong>
+                           <div>
+                              <p style="font-family: 'Lora', serif; color: darkslateblue;">Junior Coordinator (Class 1-6)</p>
+                           </div>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">sharmaKomal1976@gmail.com</span>
+                           <span style="font-family: 'Lora', serif"><em>sharmakomal1976@gmail.com</em></span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">+91 97616 62521</span>
+                           <span style="font-family: 'Lora', serif"><em>+91 97616 62521</em></span>
                            </span>
+                           <div>
+                              <p style="font-family: 'Lora', serif; color: darkslateblue;">Senior Coordinator (Class 7-12)</p>
+                           </div>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">qadr829@gmail.com</span>
+                           <span style="font-family: 'Lora', serif"><em>qadr829@gmail.com</em></span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">+91 75004 87988</span>
+                           <span style="font-family: 'Lora', serif"><em>+91 75004 87988</em></span>
                            </span>
                         </div>
                         <div class="column is-half">
 
                            <!--Student Council Contacts-->
                            <strong>
-                              <p style="font-family: 'Merriweather', serif">Student Council:</p>
+                              <p style="font-family: 'Lora', serif"><u>Student Council:</u></p>
                            </strong>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">studentcouncil.srcs@gmail.com</span>
+                           <span style="font-family: 'Lora', serif"><em>studentcouncil.srcs@gmail.com</em></span>
                            </span>
 
                            <!--Event Heads Contacts-->
                            <strong>
-                              <p style="font-family: 'Merriweather', serif"><br>Event Management Student Heads:</p>
+                              <p style="font-family: 'Lora', serif"><br><br><u>Event Management Student Heads:</u></p>
                            </strong>
+                           <div>
+                              <p style="font-family: 'Lora', serif; color: darkslateblue;">Event Head Boy</p>
+                           </div>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">aryan.vadera21@gmail.com</span>
+                           <span style="font-family: 'Lora', serif"><em>aryan.vadera21@gmail</em>.com</span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">+91 75349 41941</span>
+                           <span style="font-family: 'Lora', serif"><em>+91 75349 41941</em></span>
                            </span>
+                           <div>
+                              <p style="font-family: 'Lora', serif; color: darkslateblue;">Event Head Girl</p>
+                           </div>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-envelope"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">ananyagoyal1619@gmail.com</span>
+                           <span style="font-family: 'Lora', serif"><em>ananyagoyal1619@gmail.com</em></span>
                            </span>
                            <span class="icon-text">
                            <span class="icon">
                            <i class="fas fa-phone"></i>
                            </span>
-                           <span style="font-family: 'Merriweather', serif">+91 63988 51772</span>
+                           <span style="font-family: 'Lora', serif"><em>+91 63988 51772</em></span>
                            </span>
                         </div>
                      </div>
-                     <p style="color:dimgray; font-family: 'Merriweather', serif">To contact event-specific incharges please check <u><a  href="#events" style="color:mediumslateblue;">events</a></u></p>
-                     </strong>
                      <hr>
-                     <p><strong>Note:</strong><strong style="color:dimgray; font-family: 'Merriweather', serif"> Submission of entries for various events will only be accepted on </strong><strong style="color:lightslategray; font-family: 'Merriweather', serif">srcsspark21@gmail.com</strong></p>
+                     <p><strong>Note:</strong><strong style="color:dimgray; font-family: 'Lora', serif"> Submission of entries for various events will only be accepted on </strong><strong style="color:lightslategray; font-family: 'Lora', serif"><span class="icon-text"><span class="icon"><i class="fas fa-envelope"></i></span><span style="font-family: 'Lora', serif"><em>srcsspark21@gmail.com</em></span></span></strong></p>
                   </div>
                </div>
             </div>
